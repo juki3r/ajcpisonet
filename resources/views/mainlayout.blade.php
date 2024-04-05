@@ -60,12 +60,10 @@
 .carousel-inner
 {
     height: 100%;
-    background-color: grey;
 }
 .carousel-item
 {
     height: 100%;
-    background-color: red;
     position: relative;
 }
 
@@ -73,6 +71,7 @@
 {
     height: 100vh; /* For 100% screen height */
     width: 100vw;
+    object-fit: cover;
 }
 .slide_btn
 {
@@ -96,7 +95,7 @@
     color: white;
     padding-left: 60px;
     width: 100vw;
-    animation: fadeIn 5s;
+    animation: fadeIn 3s;
 }
 @keyframes fadeIn
 {
@@ -119,7 +118,7 @@
     font-family: arial;
     font-weight: lighter;
     margin-top: 20px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
     width: 35%;
 }
 
@@ -172,13 +171,13 @@
 {
     .content_header
     {
-        font-size: 22px !important;
+        font-size: 24px !important;
         width: 50% ;
     }
     .carousel_content p
     {
         width: 50% ;
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     .navbar-nav
     {
@@ -190,6 +189,10 @@
     .logo{
         width: 135px;
     }
+    .carousel-item img
+{
+    object-fit: fill;
+}
     
 }
 @media  screen and (max-width:1024px)
