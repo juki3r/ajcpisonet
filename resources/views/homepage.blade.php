@@ -14,7 +14,7 @@
                 <img src="{{asset('images/family.jpg')}}" alt="Family Net">
                 <div class="dimmer">
                   <div class="carousel_content">
-                    <h3 class="content_header">Ultrafast and reliable fiber and wireless internet for all</h3>
+                    <h3 class="content_header">Ultrafast and reliable fiber and wireless internet</h3>
                     <p>
                       AJC Pisonet provides internet services to areas mostly not covered
                       by main TELCO. Enhancing the digital world by providing what you
@@ -66,11 +66,13 @@
               </div>
             </div>
           </div>
-  
           <div class="middle">
-  
+            <div class="row">
+              <div class="col-12 col-md-6">
+
+              </div>
+            </div>
           </div>
       </div>
-    </div>
     
 @endsection
