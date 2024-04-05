@@ -103,7 +103,7 @@
                       </span>
                       <h3 class="fs-2">Guaranted Speed</h3>
                       <p class="fs-5">
-                        
+                        A trusted internet speed for your needs with back-up switching for non-stop activities
                       </p>
                     </div>
                   </div>
