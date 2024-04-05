@@ -219,6 +219,11 @@
 .nav-link:hover{
   color: red !important;
 }
+.login{
+  margin: auto;
+  align-items: end;
+}
+
 
 
     </style>
@@ -235,10 +240,10 @@
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                   </svg>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link {{ Request::path() ==  '/' ? 'active' : ''  }}" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Internet</a>
@@ -249,8 +254,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Apply Now</a>
               </li>
+              <li class="nav-item ms-lg-auto">
+                <a class="nav-link {{ Request::path() ==  'login' ? 'active' : ''  }}" href="login">Login</a>
+              </li>
             </ul>
-          
+            
           </div>
         </div>
       </nav>
