@@ -27,7 +27,6 @@ Route::get('/', [AJCController::class, 'homepage']);
 
 Route::middleware(['auth', 'verified'])->group(function () {
 
-   
     // Mailing
     Route::get('clients/{email}/{fullname}/{accountnumber}', function($email, $fullname, $accountnumber){
         //Send email to client Bill Reminder

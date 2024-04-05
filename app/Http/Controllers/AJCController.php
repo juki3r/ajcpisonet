@@ -12,16 +12,11 @@ use Illuminate\Support\Facades\Mail;
 class AJCController extends Controller
 {
 
-    public function homepage(){
-        if(Auth::check()){
-            if(Auth::user()->usertype=='admin'){
-                return redirect(route('admindashboard'));
-            }else{
-                return redirect(route('dashboard'));
-            }
-        }
+    public function homepage()
+    {
         return view('homepage');
     }
+
     public function internet()
     {
         if(Auth::check()){
