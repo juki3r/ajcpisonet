@@ -84,7 +84,7 @@
 {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -191,10 +191,10 @@
         width: 135px;
     }
     .carousel-item img
-{
-    object-fit: fill;
-    transform: scale(2,1);
-}
+    {
+        object-fit: fill;
+    }
+
     
 }
 @media  screen and (max-width:1024px)
