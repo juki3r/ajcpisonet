@@ -122,16 +122,6 @@ body{
     width: 35%;
 }
 
-
-
-
-.middle
-{
-    height: 100vh;
-    background-color: grey;
-}
-
-
 @media screen and (max-width:375px)
 {
     .content_header
@@ -224,6 +214,29 @@ body{
   align-items: end;
 }
 
+
+.promos{
+  position: relative;
+  height: 100vh;
+}
+.promos img{
+  height: 100%;
+  width: 100%;
+}
+.dimmer_red
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(2, 41, 51, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card{
+  height: 50vh;
+  background-color: transparent;
+  border: none;
+}
 
 
     </style>
