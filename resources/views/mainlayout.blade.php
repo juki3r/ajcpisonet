@@ -217,7 +217,7 @@
   font-weight: lighter;
 }
 .nav-link:hover{
-  font-weight: normal;
+  color: red !important;
 }
 
 
