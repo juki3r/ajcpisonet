@@ -209,6 +209,17 @@
     }
 }
 
+.nav-link.active{
+  color: red !important;
+  font-weight: bold;
+}
+.nav-link{
+  font-weight: lighter;
+}
+.nav-link:hover{
+  font-weight: normal;
+}
+
 
     </style>
 </head>

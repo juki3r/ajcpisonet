@@ -10,7 +10,7 @@
               <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" class="slide_btn" aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="20000">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <img src="{{asset('images/family.jpg')}}" alt="Family Net">
                 <div class="dimmer">
                   <div class="carousel_content">
@@ -24,7 +24,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="20000">
+              <div class="carousel-item" data-bs-interval="10000">
                 <img src="{{asset('images/isla1.jpg')}}" alt="Gigantes">
                 <div class="dimmer">
                   <div class="carousel_content">
@@ -38,7 +38,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="20000">
+              <div class="carousel-item" data-bs-interval="10000">
                 <img src="{{asset('images/mission.jpg')}}" alt="Mission">
                 <div class="dimmer">
                   <div class="carousel_content">
@@ -51,7 +51,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item" >
+              <div class="carousel-item" data-bs-interval="10000">
                 <img src="{{asset('images/images.jpg')}}" alt="Success">
                 <div class="dimmer">
                   <div class="carousel_content">
