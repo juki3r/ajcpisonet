@@ -50,7 +50,6 @@
 {
     width: 150px;
     margin-left: -40px !important;
-    display: none;
 }
 
 /* CAROUSEL */
