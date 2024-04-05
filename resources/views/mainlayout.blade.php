@@ -193,6 +193,7 @@
     .carousel-item img
 {
     object-fit: fill;
+    transform: scale(2,1);
 }
     
 }
