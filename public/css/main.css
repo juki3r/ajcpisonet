@@ -19,7 +19,6 @@
     margin-top: -100px;
 }
 
-
 .navBar
 {
     background-color: rgba(0, 0, 0, 0.6);
@@ -30,12 +29,13 @@
 /* LOGO */
 .logo
 {
-    width: 110px;
+    width: 150px;
+    
 }
-
-
-
-
+.nav-link{
+    font-size: 28px !important;
+    color: whitesmoke !important;
+}
 
 
 
@@ -176,6 +176,20 @@
         background-color: black;
         width: 100%;
         text-align: center;
+    }
+    .logo
+    {
+        width: 120px;
+        margin-right: 0;
+        
+    }
+    .nav-link
+    {
+        font-size: 16px !important;
+    }
+    .collapse
+    {
+       
     }
     
 }
