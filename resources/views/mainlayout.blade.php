@@ -84,7 +84,7 @@
 {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@
 .carousel_content
 {
     margin-top: 30vh !important;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
     padding-left: 60px;
     width: 100vw;
     animation: fadeIn 3s;
