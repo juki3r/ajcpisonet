@@ -121,7 +121,7 @@
                       </span>
                       <h3 class="fs-2">With Back-up Power</h3>
                       <p class="fs-5">
-                        Guaranted back-up power to avoid internet disruption cause by electricity failure.
+                        Guaranted back-up power to avoid internet interuption cause by electricity failure.
                       </p>
                     </div>
                   </div>
