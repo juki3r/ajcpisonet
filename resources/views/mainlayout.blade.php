@@ -181,10 +181,11 @@
     }
     .navbar-nav
     {
-        background-color: red;
+        background-color: rgb(77, 3, 3);
         width: 100%;
         text-align: center;
         margin-bottom: 10px;
+        padding-bottom: 30px;
     }
     .logo{
         width: 135px;
