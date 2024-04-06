@@ -184,6 +184,19 @@ body{
     {
         object-fit: fill;
     }
+    .promos_content h4{
+        font-size: 14px !important;
+    }
+    .promos_content h3{
+        font-size: 22px !important;
+    }
+    .card h3{
+        font-size: 14px !important;
+    }
+    .card p{
+        font-size: 12px !important;
+        font-weight: lighter;
+    }
 
     
 }
@@ -197,18 +210,7 @@ body{
     {
         width: 70%;
     }
-    .promos_content h4{
-        font-size: 18px !important;
-    }
-    .promos_content h3{
-        font-size: 28px !important;
-    }
-    .card h3{
-        font-size: 20px !important;
-    }
-    .card p{
-        font-size: 14px !important;
-    }
+
 }
 
 .nav-link.active{
