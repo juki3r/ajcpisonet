@@ -133,10 +133,7 @@ body{
     {
         font-size: 12px !important;
         width: 80% !important;
-    }
-
-    
-    
+    }   
 }
 @media  screen and (max-width:425px)
 {
@@ -183,10 +180,7 @@ body{
     .carousel-item img
     {
         object-fit: fill;
-    }
-   
-
-    
+    }   
 }
 @media  screen and (max-width:1024px)
 {
@@ -198,43 +192,9 @@ body{
     {
         width: 70%;
     }
-  
+}
 
-}
-@media screen and (min-width:1000px){
-    .card{
-        padding: 10px !important;
-    }
-    .promos_content h4{
-        font-size: 20px;
-    }
-    .promos_content h3{
-        font-size: 30px;
-    }
-    .card h3{
-        font-size: 26px;
-    }
-    .card p{
-        font-size: 18px;
-    }
-}
-@media screen and (min-width:768px){
-    .card{
-        padding: 2px !important;
-    }
-    .promos_content h4{
-        font-size: 18px;
-    }
-    .promos_content h3{
-        font-size: 24px;
-    }
-    .card h3{
-        font-size: 21px;
-    }
-    .card p{
-        font-size: 16px;
-    }
-}
+
 
 .nav-link.active{
   color: red !important;
@@ -252,6 +212,9 @@ body{
 }
 
 
+
+
+
 .promos{
   position: relative;
   height: 100vh;
@@ -261,7 +224,6 @@ body{
   height: 100%;
   width: 100%;
 }
-
 .dimmer_red
 {
     height: 100%;
@@ -271,12 +233,71 @@ body{
     top: 0;
     left: 0;
 }
-
 .card{
-  height: 50vh;
   background-color: transparent;
   border: none;
 }
+.promo_row{
+    height: 100vh;
+}
+.promos_content h4{
+    font-size: 24px;
+}
+.promos_content h3{
+    font-size: 30px;
+}
+.card{
+    padding: 10px;
+}
+.card h3{
+    font-size: 26px;
+}
+.card p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+@media screen and (min-width:768px){
+    .promo_row{
+    height: 50%;
+    }
+    .promos_content h4{
+        font-size: 18px;
+    }
+    .promos_content h3{
+        font-size: 24px;
+    }
+    .card{
+        padding: 10px;
+    }
+    .card h3{
+        font-size: 18px;
+    }
+    .card p{
+        font-size: 14px;
+        font-weight: lighter;
+    }
+}
+@media screen and (min-width:1000px){
+    .promos_content h4{
+        font-size: 20px;
+    }
+    .promos_content h3{
+        font-size: 30px;
+    }
+    .card{
+        padding: 20px;
+    }
+    .card h3{
+        font-size: 24px;
+    }
+    .card p{
+        font-size: 16px;
+        font-weight: lighter;
+    }
+}
+
+    
 
 
 

@@ -77,10 +77,10 @@
                     <button type="button" class="btn btn-warning ms-2 mt-4">Apply Now</button>
                   </div>
               </div>
-              <div class="col bg-primary p-0 m-0 promos">
-                <div class="row p-0 m-0">
-                  <div class="col-12 col-md-6" style="background-color:rgb(138, 34, 34)">
-                    <div class="card p-4 text-light">
+              <div class="col p-0 m-0 promos">
+                <div class="row p-0 m-0 promo_row">
+                  <div class="col-12 col-md-6" style="background-color:rgb(138, 34, 34);" >
+                    <div class="card  text-light">
                       <span class="mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-clock text-light border p-2" viewBox="0 0 16 16">
                           <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
@@ -95,7 +95,7 @@
                     </div>
                   </div>
                   <div class="col-12 col-md-6" style="background-color:rgb(16, 5, 78)">
-                    <div class="card p-4 text-light">
+                    <div class="card  text-light">
                       <span class="mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-speedometer text-light border p-2" viewBox="0 0 16 16">
                           <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2M3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707M2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8m9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5m.754-4.246a.39.39 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.39.39 0 0 0-.029-.518z"/>
@@ -109,9 +109,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="row p-0 m-0">
+                <div class="row p-0 m-0 promo_row">
                   <div class="col-12 col-md-6" style="background-color:rgb(10, 48, 3)">
-                    <div class="card p-4 text-light">
+                    <div class="card  text-light">
                       <span class="mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-battery-charging text-light border p-2" viewBox="0 0 16 16">
                           <path d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
@@ -127,7 +127,7 @@
                     </div>
                   </div>
                   <div class="col-12 col-md-6" style="background-color:rgb(88, 27, 3)">
-                    <div class="card p-4 text-light">
+                    <div class="card  text-light">
                       <span class="mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-tools text-light border p-2" viewBox="0 0 16 16">
                           <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
