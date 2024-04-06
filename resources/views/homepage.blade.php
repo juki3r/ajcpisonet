@@ -65,7 +65,8 @@
                 </div>
               </div>
             </div>
-          </div>
+        </div>
+
           <div class="row m-0 p-0">
               <div class="col-12 col-md-5 p-0 m-0 promos">
                   <img src="{{asset('assets/internet-head.jpg')}}" alt="Reasons">
@@ -142,6 +143,8 @@
                 </div>
               </div>
           </div>
+          
+
       </div>
     
 @endsection

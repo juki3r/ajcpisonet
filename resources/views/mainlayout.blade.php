@@ -84,7 +84,7 @@ body{
 {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -197,6 +197,18 @@ body{
     {
         width: 70%;
     }
+    .promos_content h4{
+        font-size: 18px !important;
+    }
+    .promos_content h3{
+        font-size: 28px !important;
+    }
+    .card h3{
+        font-size: 20px !important;
+    }
+    .card p{
+        font-size: 14px !important;
+    }
 }
 
 .nav-link.active{
@@ -219,10 +231,12 @@ body{
   position: relative;
   height: 100vh;
 }
+
 .promos img{
   height: 100%;
   width: 100%;
 }
+
 .dimmer_red
 {
     height: 100%;
@@ -232,11 +246,14 @@ body{
     top: 0;
     left: 0;
 }
+
 .card{
   height: 50vh;
   background-color: transparent;
   border: none;
 }
+
+
 
 
     </style>
