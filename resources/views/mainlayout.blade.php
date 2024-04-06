@@ -156,6 +156,18 @@ body{
     {
         width: 80% !important;
     }
+    .promos_content h4{
+        font-size: 20px !important;
+    }
+    .promos_content h3{
+        font-size: 26px !important;
+    }
+    .card h3{
+        font-size: 26px !important;
+    }
+    .card p{
+        font-size: 18px !important;
+    }
 }
 @media  screen and (max-width:768px)
 {
@@ -185,17 +197,16 @@ body{
         object-fit: fill;
     }
     .promos_content h4{
-        font-size: 14px !important;
+        font-size: 18px !important;
     }
     .promos_content h3{
         font-size: 22px !important;
     }
     .card h3{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     .card p{
-        font-size: 12px !important;
-        font-weight: lighter;
+        font-size: 14px !important;
     }
 
     
@@ -209,6 +220,18 @@ body{
     .content_header
     {
         width: 70%;
+    }
+    .promos_content h4{
+        font-size: 20px ;
+    }
+    .promos_content h3{
+        font-size: 28px;
+    }
+    .card h3{
+        font-size: 24px;
+    }
+    .card p{
+        font-size: 16px;
     }
 
 }
