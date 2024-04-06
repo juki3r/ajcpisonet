@@ -241,10 +241,10 @@ body{
     height: 100vh;
 }
 .promos_content h4{
-    font-size: 24px;
+    font-size: 18px;
 }
 .promos_content h3{
-    font-size: 30px;
+    font-size: 24px;
 }
 .card{
     padding: 10px;
