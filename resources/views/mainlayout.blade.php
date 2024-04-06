@@ -201,8 +201,37 @@ body{
   
 
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:1000px){
+    .card{
+        padding: 10px !important;
+    }
     .promos_content h4{
+        font-size: 20px;
+    }
+    .promos_content h3{
+        font-size: 30px;
+    }
+    .card h3{
+        font-size: 26px;
+    }
+    .card p{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:768px){
+    .card{
+        padding: 2px !important;
+    }
+    .promos_content h4{
+        font-size: 18px;
+    }
+    .promos_content h3{
+        font-size: 24px;
+    }
+    .card h3{
+        font-size: 21px;
+    }
+    .card p{
         font-size: 16px;
     }
 }
