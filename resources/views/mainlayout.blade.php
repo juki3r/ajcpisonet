@@ -363,9 +363,9 @@ body{
       <div class="container-fluid-break" >
         <div class="row p-5" style="background-color: rgb(17, 37, 41)">
             <div class="col-12 col-md-4 d-flex justify-content-center flex-column text-light p-3 ">
-                <h1 class="text-center">
-                    <a href="/">
-                        <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"   width="300px" style="margin-left: -40px">
+                <h1 class="text-center me-5 mb-0">
+                    <a href="/" >
+                        <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"   width="300px">
                     </a>
                 </h1>
                 <p class="px-lg-5">
