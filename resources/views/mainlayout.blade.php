@@ -27,11 +27,6 @@ body{
 .navbar-toggler-icon{
     background-color: red !important;
 }
-
-.homepage{
-    margin-top: -100px;
-}
-
 .navBar
 {
     background-color: rgba(0, 0, 0, 0.6);
@@ -277,11 +272,40 @@ body{
      position: absolute;
 }
 
+.form_div{
+        width: 100% ;
+    }
 
-
-
-
-
+@media screen and (min-width:500px){
+    .form_div{
+        width: 80% ;
+    }
+}
+@media screen and (min-width:600px){
+    .form_div{
+        width: 70% ;
+    }
+}
+@media screen and (min-width:700px){
+    .form_div{
+        width: 60% ;
+    }
+}
+@media screen and (min-width:800px){
+    .form_div{
+        width: 50% ;
+    }
+}
+@media screen and (min-width:1000px){
+    .form_div{
+        width: 40% ;
+    }
+}
+@media screen and (min-width:1200px){
+    .form_div{
+        width: 30% ;
+    }
+}
 @media screen and (min-width:768px){
     .promo_row{
     height: 50%;
@@ -302,6 +326,7 @@ body{
         font-size: 14px;
         font-weight: lighter;
     }
+    
 }
 @media screen and (min-width:1000px){
     .promos_content h4{
@@ -347,7 +372,7 @@ body{
                 <a class="nav-link" href="#">Contacts</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Apply Now</a>
+                <a class="nav-link" href="{{route('applynow')}}">Apply Now</a>
               </li>
               <li class="nav-item ms-lg-auto">
                 <a class="nav-link {{ Request::path() ==  'login' ? 'active' : ''  }}" href="login">Login</a>
@@ -360,7 +385,7 @@ body{
 
       {{-- SECTION --}}
       @yield('content')
-      <div class="container-fluid-break" >
+      {{-- <div class="container-fluid-break" >
         <div class="row p-5" style="background-color: rgb(17, 37, 41)">
             <div class="col-12 col-md-4 d-flex justify-content-center flex-column text-light p-0 p-lg-3">
                 <h1 class="text-center ">
@@ -414,6 +439,6 @@ body{
                   Mars Tyler Arcenas
             </span>
         </div>
-      </div>
+      </div> --}}
 </body>
 </html>

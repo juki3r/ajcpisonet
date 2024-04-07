@@ -16,6 +16,10 @@ class AJCController extends Controller
     {
         return view('homepage');
     }
+    public function applynow()
+    {
+        return view('applynow');
+    }
 
     public function internet()
     {
@@ -50,17 +54,17 @@ class AJCController extends Controller
         }
         return view('include.contactus');
     }
-    public function applynow()
-    {
-        if(Auth::check()){
-            if(Auth::user()->usertype=='admin'){
-                return redirect(route('admindashboard'));
-            }else{
-                return redirect(route('dashboard'));
-            }
-        }
-        return view('include.applynow');
-    }
+    // public function applynow()
+    // {
+    //     if(Auth::check()){
+    //         if(Auth::user()->usertype=='admin'){
+    //             return redirect(route('admindashboard'));
+    //         }else{
+    //             return redirect(route('dashboard'));
+    //         }
+    //     }
+    //     return view('include.applynow');
+    // }
 
     public function sendemailinquire (Request $request) 
     {
