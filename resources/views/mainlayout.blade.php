@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
     <style>
 body{
-    position: relative;
+
 }
 
 .navbar-toggler:focus,
@@ -29,9 +29,7 @@ body{
 }
 
 .homepage{
-    width: 100%;
-    position: absolute;
-    top: 0;
+    margin-top: -100px;
 }
 
 .navBar
@@ -256,6 +254,22 @@ body{
     font-size: 18px;
     font-weight: lighter;
 }
+.dimmer_promo
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(5, 75, 204, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
 
 @media screen and (min-width:768px){
     .promo_row{
