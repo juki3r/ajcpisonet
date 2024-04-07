@@ -147,7 +147,7 @@
         </div>
       </div>
     </div>
-    <div class="row" style="background-color: rgb(85, 3, 85)">
+    <div class="row pb-5" style="background-color: rgb(85, 3, 85)">
       <div class="row text-light py-4 px-5 py-lg-3">
         <h1>Pricing Plans</h1>
         <h5 class="ms-lg-3">Requirements:</h5>
