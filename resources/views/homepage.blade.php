@@ -148,6 +148,28 @@
       </div>
     </div>
     <div class="row" style="background-color: rgb(85, 3, 85)">
+      <div class="row text-light py-4 px-5 py-lg-3">
+        <h3>Pricing Plans</h3>
+        <h5 class="ms-lg-3">Requirements:</h5>
+        <p class="ms-5 m-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+            <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+          </svg>
+          1 Valid ID
+        </p>
+        <p class="ms-5 m-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+            <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+          </svg>
+          Application form via online <a href="#" class="text-light">Click here</a>
+        </p>
+        <p class="ms-5 m-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+            <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+          </svg>
+          Active email address (optional)
+        </p>
+      </div>
       <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
         <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
           <div class="card-header border-0 bg-dark text-light p-3">

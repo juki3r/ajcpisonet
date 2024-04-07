@@ -310,12 +310,6 @@ body{
         font-weight: lighter;
     }
 }
-
-    
-
-
-
-
     </style>
 </head>
 <body>
@@ -355,5 +349,10 @@ body{
 
       {{-- SECTION --}}
       @yield('content')
+      <div class="container-fluid-break" >
+        <div class="row" style="background-color: rgba(4, 202, 252, 0.6)">
+            <h1>Footer</h1>
+        </div>
+      </div>
 </body>
 </html>
