@@ -148,8 +148,8 @@
       </div>
     </div>
     <div class="row" style="background-color: darkmagenta">
-      <div class="col-12 col-lg-3 col-md-6 py-2 px-4 py-lg-3">
-        <div class="card text-center p-1 bg-white shadow" style="border: 1px solid grey">
+      <div class="col-12 col-lg-3 col-md-6 py-2 px-5 py-lg-3">
+        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid grey">
           <div class="card-header border-0 bg-dark text-light">
             <h4 >UPTO 20MBPS</h4>
           </div>
