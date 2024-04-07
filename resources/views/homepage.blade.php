@@ -147,9 +147,9 @@
         </div>
       </div>
     </div>
-    <div class="row" style="background-color: rgb(85, 3, 85)">
+    <div class="row" style="background-color: rgb(56, 3, 56)">
       <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
-        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
+        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(56, 3, 56)">
           <div class="card-header border-0 bg-dark text-light">
             <h5 >UPTO 20MBPS</h5>
           </div>
