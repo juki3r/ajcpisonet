@@ -177,7 +177,7 @@
           </div>
           <div class="card-body">
             <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>800</h1>
-            <p  style="margin-top:-10px">Monthly</p>
+            <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
@@ -193,7 +193,7 @@
           </div>
           <div class="card-body">
             <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,000</h1>
-            <p  style="margin-top:-10px">Monthly</p>
+            <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
@@ -209,7 +209,7 @@
           </div>
           <div class="card-body">
             <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,300</h1>
-            <p  style="margin-top:-10px">Monthly</p>
+            <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
@@ -225,7 +225,7 @@
           </div>
           <div class="card-body">
             <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,500</h1>
-            <p  style="margin-top:-10px">Monthly</p>
+            <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
