@@ -163,5 +163,53 @@
           </div>
         </div>
       </div>
+      {{-- PLAN 1000 --}}
+      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
+        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
+          <div class="card-header border-0 bg-dark text-light">
+            <h5 >UPTO 30MBPS</h5>
+          </div>
+          <div class="card-body">
+            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1000</h1>
+            <p  style="margin-top:-10px">Monthly</p>
+          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          </div>
+          <div class="card-footer border-0 bg-white">
+            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+          </div>
+        </div>
+      </div>
+      {{-- PLAN 1300 --}}
+      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
+        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
+          <div class="card-header border-0 bg-dark text-light">
+            <h5 >UPTO 50MBPS</h5>
+          </div>
+          <div class="card-body">
+            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1300</h1>
+            <p  style="margin-top:-10px">Monthly</p>
+          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          </div>
+          <div class="card-footer border-0 bg-white">
+            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+          </div>
+        </div>
+      </div>
+      {{-- PLAN 1500 --}}
+      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
+        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
+          <div class="card-header border-0 bg-dark text-light">
+            <h5 >UPTO 100MBPS</h5>
+          </div>
+          <div class="card-body">
+            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1500</h1>
+            <p  style="margin-top:-10px">Monthly</p>
+          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          </div>
+          <div class="card-footer border-0 bg-white">
+            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+          </div>
+        </div>
+      </div>
     </div>
 @endsection
