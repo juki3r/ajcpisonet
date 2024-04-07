@@ -192,7 +192,7 @@
             <h5 >UPTO 30MBPS</h5>
           </div>
           <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1000</h1>
+            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,000</h1>
             <p  style="margin-top:-10px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
@@ -208,7 +208,7 @@
             <h5 >UPTO 50MBPS</h5>
           </div>
           <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1300</h1>
+            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,300</h1>
             <p  style="margin-top:-10px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
@@ -224,7 +224,7 @@
             <h5 >UPTO 100MBPS</h5>
           </div>
           <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1500</h1>
+            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,500</h1>
             <p  style="margin-top:-10px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
