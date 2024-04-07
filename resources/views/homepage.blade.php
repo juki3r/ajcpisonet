@@ -150,7 +150,7 @@
     <div class="row" style="background-color: rgb(85, 3, 85)">
       <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
         <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light">
+          <div class="card-header border-0 bg-dark text-light p-3">
             <h5 >UPTO 20MBPS</h5>
           </div>
           <div class="card-body">
@@ -166,7 +166,7 @@
       {{-- PLAN 1000 --}}
       <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
         <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light">
+          <div class="card-header border-0 bg-dark text-light p-3">
             <h5 >UPTO 30MBPS</h5>
           </div>
           <div class="card-body">
@@ -182,7 +182,7 @@
       {{-- PLAN 1300 --}}
       <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
         <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light">
+          <div class="card-header border-0 bg-dark text-light p-3">
             <h5 >UPTO 50MBPS</h5>
           </div>
           <div class="card-body">
@@ -198,7 +198,7 @@
       {{-- PLAN 1500 --}}
       <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
         <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light">
+          <div class="card-header border-0 bg-dark text-light p-3">
             <h5 >UPTO 100MBPS</h5>
           </div>
           <div class="card-body">
