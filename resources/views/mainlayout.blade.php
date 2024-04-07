@@ -365,7 +365,7 @@ body{
             <div class="col-12 col-md-4 d-flex justify-content-center flex-column text-light  p-3 ">
                 <h1 class="text-center">
                     <a href="/">
-                        <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"   width="150px">
+                        <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"   width="300px">
                     </a>
                 </h1>
                 <p class="px-lg-5">
