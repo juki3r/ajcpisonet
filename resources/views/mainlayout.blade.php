@@ -385,7 +385,7 @@ body{
 
       {{-- SECTION --}}
       @yield('content')
-      <div class="container-fluid" >
+      <div class="container-fluid-breakpoint" >
         {{-- <div class="row p-5" style="background-color: rgb(17, 37, 41)">
             <div class="col-12 col-md-4 d-flex justify-content-center flex-column text-light p-0 p-lg-3">
                 <h1 class="text-center ">
