@@ -9,21 +9,21 @@
                 <div class="form_div">
                     <form class="text-light p-5 rounded">
                         <h3 class="text-center mb-5">APPLICATION FORM</h3>
-                        <div class="mb-3">
+                        <div class="mb-2">
                           <label for="name" class="form-label">Full name</label>
-                          <input type="text" class="form-control" >
+                          <input type="text" class="form-control bg-dark text-light" >
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <label for="phone" class="form-label">Phone number</label>
-                            <input type="number" class="form-control">
+                            <input type="number" class="form-control bg-dark text-light" >
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <label for="address" class="form-label">Complete address</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control bg-dark text-light">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-2">
                             <label for="plan" class="form-label">Internet plan</label>
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control bg-dark text-light">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                       </form>
