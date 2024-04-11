@@ -386,7 +386,7 @@ body{
       {{-- SECTION --}}
       @yield('content')
       <div class="container-fluid" >
-        <div class="row p-5" style="background-color: rgb(17, 37, 41)">
+        {{-- <div class="row p-5" style="background-color: rgb(17, 37, 41)">
             <div class="col-12 col-md-4 d-flex justify-content-center flex-column text-light p-0 p-lg-3">
                 <h1 class="text-center ">
                     <a href="/" >
@@ -429,7 +429,7 @@ body{
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4738.650554149824!2d123.14888275833434!3d11.596323932837459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sph!4v1712499401866!5m2!1sen!2sph" width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <div class="row text-center text-light" style="background-color: rgb(17, 37, 41)">
             <span>
                 &copy AJC Pisonet
