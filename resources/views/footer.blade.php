@@ -1,6 +1,6 @@
     <div class="container-fluid">
-        <div class="row">
-            <div class="col">
+        <div class="row bg-dark" style="height: 50vh">
+            <div class="col p-5">
                 <a class="navbar-brand ms-5" href="/">
                     <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"  class="logo">
                 </a>
@@ -9,7 +9,7 @@
                 hello
             </div>
         </div>
-    <div class="row text-center text-light"  style="background-color: rgb(17, 37, 41)" >
+    {{-- <div class="row text-center text-light"  style="background-color: rgb(17, 37, 41)" >
         <span>
             &copy AJC Pisonet
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
@@ -17,5 +17,5 @@
               </svg>
               Mars Tyler Arcenas
         </span>
-    </div>
+    </div> --}}
 </div>
