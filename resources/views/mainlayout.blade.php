@@ -346,6 +346,11 @@ body{
         font-weight: lighter;
     }
 }
+
+.footer-row
+{
+    background-color: black;
+}
     </style>
 </head>
 <body>

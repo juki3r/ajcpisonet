@@ -1,11 +1,23 @@
-    <div class="container-fluid">
-        <div class="row bg-dark" style="height: 50vh">
-            <div class="col p-5">
-                <a class="navbar-brand ms-5" href="/">
+    <div class="container-fluid-break">
+        <div class="row footer-row text-light px-lg-5">
+            <div class="col-12 col-md-5 p-5 d-flex flex-column justify-content-center">
+                <a class="navbar-brand m-auto ms-lg-3" href="/">
                     <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"  class="logo">
                 </a>
+                <p class="pe-lg-5 me-lg-5">
+                    AJC Pisonet provides internet services to areas mostly not covered
+                    by main TELCO. Enhancing the digital world by providing what you
+                    need for communications, gaming and businesses.
+                </p>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-2 pt-lg-5 mt-lg-5 d-flex flex-column justify-content-center text-center">
+                <a href="" class="text-light text-decoration-none">Sitemap</a>
+                <a href="" class="text-light text-decoration-none">Home</a>
+                <a href="" class="text-light text-decoration-none">Internet</a>
+                <a href="" class="text-light text-decoration-none">Contacts</a>
+                <a href="" class="text-light text-decoration-none">Apply Now</a>
+            </div>
+            <div class="col-12 col-md-5">
                 hello
             </div>
         </div>
