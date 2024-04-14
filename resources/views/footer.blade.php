@@ -1,7 +1,7 @@
     <div class="container-fluid-break">
         <div class="row footer-row text-light ">
             <div class="col-12 col-md-5 d-flex flex-column align-items-center  px-xl-5">
-                <a class="m-auto ms-lg-5 ps-3 ps-lg-3 ps-xl-5 pt-xl-3 ms-xl-5 mt-xl-3 mb-xl-0" href="/">
+                <a class="m-auto ms-lg-5 ps-3 pt-3 ps-lg-3 ps-xl-5 pt-xl-3 ms-xl-5 mt-xl-3 mb-xl-0" href="/">
                     <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"  class="logo">
                 </a>
                 <p class="px-3 pb-4 px-lg-5 px-xl-5 mx-xl-4">
