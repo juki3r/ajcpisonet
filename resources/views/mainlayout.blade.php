@@ -280,6 +280,7 @@ body{
     .form_div{
         width: 80% ;
     }
+   
 }
 @media screen and (min-width:600px){
     .form_div{
@@ -351,6 +352,9 @@ body{
 {
     background-color: black;
 }
+
+
+
     </style>
 </head>
 <body>
