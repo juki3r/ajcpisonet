@@ -18,7 +18,7 @@
                 <a href="" class="text-light text-decoration-none">Apply Now</a>
             </div>
             <div class="col-12 col-md-5  d-flex flex-column justify-content-center  p-3 py-sm-4">
-                <img src="{{asset('images/location.jpg')}}" alt="Location" class="footer_image h-100">
+                <img src="{{asset('images/location.JPG')}}" alt="Location" class="footer_image h-100">
             </div>
         </div>
     {{-- <div class="row text-center text-light"  style="background-color: rgb(17, 37, 41)" >
