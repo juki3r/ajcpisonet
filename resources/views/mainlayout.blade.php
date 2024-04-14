@@ -185,6 +185,7 @@ body{
     {
         width: 70%;
     }
+   
 }
 
 
@@ -352,6 +353,18 @@ body{
 {
     background-color: black;
 }
+
+.footer_image{
+        height: 80%;
+    }
+@media screen and (max-width:1024px){
+    .footer_image{
+        height: 100%;
+    }
+}
+  
+
+
 
 
 

@@ -18,12 +18,20 @@
                 <a href="" class="text-light text-decoration-none">Apply Now</a>
             </div>
             <div class="col-12 col-md-5  d-flex flex-column justify-content-center  p-3 py-sm-4">
-                <img src="{{asset('images/location.JPG')}}" alt="Location" class="footer_image h-100">
+                <img src="{{asset('images/location.JPG')}}" alt="Location" class="footer_image">
+            </div>
+        </div>
+        <div class="row text-white py-2" style="background-color: black">
+            <div class="col-12 col-md-6 text-center " style="font-size: 12px">
+                &copy AJC Pisonet @ 2024. All Rights Reserved.
+            </div>
+            <div class="col-12 col-md-6 text-center " style="font-size: 12px">
+               Terms & Conditions - Privacy Policy - Powered by Jupiter
             </div>
         </div>
     {{-- <div class="row text-center text-light"  style="background-color: rgb(17, 37, 41)" >
         <span>
-            &copy AJC Pisonet
+            
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
                 <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
               </svg>
