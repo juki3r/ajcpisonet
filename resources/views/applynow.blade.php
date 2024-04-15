@@ -13,7 +13,7 @@
                     <h3 class="text-center mb-5">APPLICATION FORM</h3>
                     <div class="mb-2">
                       <label for="name" class="form-label">Full name</label>
-                      <input type="text" class="form-control bg-dark text-light" >
+                      <input type="text" class="form-control" >
                     </div>
                     <div class="mb-2">
                         <label for="phone" class="form-label">Phone number</label>
