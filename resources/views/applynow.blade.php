@@ -13,19 +13,19 @@
                     <h3 class="text-center mb-5">APPLICATION FORM</h3>
                     <div class="mb-2">
                       <label for="name" class="form-label">Full name</label>
-                      <input type="text" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.0)">
+                      <input type="text" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2)">
                     </div>
                     <div class="mb-2">
                         <label for="phone" class="form-label">Phone number</label>
-                        <input type="number" class="form-control bg-dark text-light" >
+                        <input type="number" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2)">
                     </div>
                     <div class="mb-2">
                         <label for="address" class="form-label">Complete address</label>
-                        <input type="text" class="form-control bg-dark text-light">
+                        <input type="text"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2)">
                     </div>
                     <div class="mb-2">
                         <label for="plan" class="form-label">Internet plan</label>
-                        <select name="internet-plan" class="form-control bg-dark text-light">
+                        <select name="internet-plan"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2)">
                             <option value="Choose internet plan"></option>
                             <option value="800" class="text-light">800</option>
                             <option value="1000" class="text-light">1000</option>
