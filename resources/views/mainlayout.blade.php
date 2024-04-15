@@ -185,6 +185,15 @@ body{
     {
         width: 70%;
     }
+    .card-header h5{
+        font-size: 16px;
+    }
+    .card-body h1{
+        font-size: 30px;
+    }
+    .pesosign{
+        margin-top: 0px !important;
+    }
    
 }
 

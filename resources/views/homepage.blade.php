@@ -22,7 +22,7 @@
                     by main TELCO. Enhancing the digital world by providing what you
                     need for communications, gaming and businesses.
                   </p>
-                  <button type="button" class="btn text-light bg-primary mt-3">Apply Now</button>
+                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@
                     latest adventure of your life and communicate to your love ones and convince them
                     to enjoy thier life too.
                   </p>
-                  <button type="button" class="btn text-light bg-primary mt-3">Apply Now</button>
+                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@
                     Help to connect people to fastest growing digital world, by providing ultrafast and reliable internet
                     connectivity.
                   </p>
-                  <button type="button" class="btn text-light bg-primary mt-3">Apply Now</button>
+                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@
                     To be the most trusted internet provider, by helping people to evolve and understand
                     about fast growing technology. The INTERNET ERA.
                   </p>
-                  <button type="button" class="btn text-light bg-primary mt-3">Apply Now</button>
+                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
                 </div>
               </div>
             </div>
@@ -170,18 +170,18 @@
           Active email address (optional)
         </p>
       </div>
-      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
-        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
+      <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-5 px-md-5 d-flex align-items-center justify-content-center">
+        <div class="card text-center p-0 bg-white shadow w-75" style="border: 1px solid rgb(85, 3, 85)">
           <div class="card-header border-0 bg-dark text-light p-3">
             <h5 >UPTO 20MBPS</h5>
           </div>
-          <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>800</h1>
-            <p  style="margin-top:-8px">Monthly</p>
-          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          <div class="card-body d-flex flex-column justify-content-space-between">
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>800</h1>
+            <p class="" style="margin-top:-14px">Monthly</p>
+            <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
           </div>
         </div>
       </div>
@@ -192,28 +192,28 @@
             <h5 >UPTO 30MBPS</h5>
           </div>
           <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,000</h1>
+            <h1 class="mt-4 mt-lg-1 mb-0 pb-0 position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px" class="pesosign">&#8369;</span>1,000</h1>
             <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+            <button class="btn btn-warning m-auto py-2 px-3 mb-4">Apply Now</button>
           </div>
         </div>
       </div>
       {{-- PLAN 1300 --}}
-      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
+      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3">
         <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
           <div class="card-header border-0 bg-dark text-light p-3">
             <h5 >UPTO 50MBPS</h5>
           </div>
           <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,300</h1>
+            <h1 class="mt-4 mt-lg-1 mb-0 pb-0 position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px" class="pesosign">&#8369;</span>1,300</h1>
             <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+            <button class="btn btn-warning m-auto py-2 px-3 mb-4">Apply Now</button>
           </div>
         </div>
       </div>
@@ -224,12 +224,12 @@
             <h5 >UPTO 100MBPS</h5>
           </div>
           <div class="card-body">
-            <h1 class="mt-4 mb-0 pb-0 position-relative fw-bold" style="font-size: 50px"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px">&#8369;</span>1,500</h1>
+            <h1 class="mt-4 mt-lg-1 mb-0 pb-0 position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px" class="pesosign">&#8369;</span>1,500</h1>
             <p  style="margin-top:-8px">Monthly</p>
           <p class="mt-5 fw-bold">Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning w-50 m-auto py-2 px-3 mb-4">Apply Now</button>
+            <button class="btn btn-warning m-auto py-2 px-3 mb-4">Apply Now</button>
           </div>
         </div>
       </div>
