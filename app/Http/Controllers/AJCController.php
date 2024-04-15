@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\InquireMail;
 use App\Models\Application;
+use App\Models\Applications;
 use Illuminate\Http\Request;
 use App\Mail\AutoReplyInquire;
 use Illuminate\Support\Facades\Auth;
@@ -19,6 +20,25 @@ class AJCController extends Controller
     public function applynow()
     {
         return view('applynow');
+    }
+    public function applynow_store (Request $request){
+        $request->validate([
+            'fullname' => 'required|unique:applications',
+            'cpnumber' => 'required|max:11|min:11',
+            'address' => 'required',
+            'internet_plan' => 'required'
+        ]);
+       $application = Applications::create([
+            'fullname' => $request->fullname,
+            'cpnumber' => $request->cpnumber,
+            'address' => $request->address,
+            'internet_plan' => $request->internet_plan
+        ]);
+        if($application){
+            return redirect()->back()->with('status', 'Application submitted, please wait for text or call.');
+        }else{
+            return redirect()->back()->with('error', 'Application failed, please try again.');
+        }
     }
 
     public function internet()
@@ -54,17 +74,6 @@ class AJCController extends Controller
         }
         return view('include.contactus');
     }
-    // public function applynow()
-    // {
-    //     if(Auth::check()){
-    //         if(Auth::user()->usertype=='admin'){
-    //             return redirect(route('admindashboard'));
-    //         }else{
-    //             return redirect(route('dashboard'));
-    //         }
-    //     }
-    //     return view('include.applynow');
-    // }
 
     public function sendemailinquire (Request $request) 
     {

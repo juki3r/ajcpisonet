@@ -7,26 +7,45 @@
     <div class="" style="height: 100vh; position:relative;">
         <img src="{{asset('images/images.jpg')}}" alt="Family Net" height="100%" width="100%">
         <div class="dimmer_apply"></div>
-        <div class="d-flex justify-content-center align-items-center" style="position: absolute;height:100%;width:100%;top:0;">
+        <div class="d-flex flex-column justify-content-center align-items-center" style="position: absolute;height:100%;width:100%;top:0;">
             <div class="form_div">
-                <form action="" class="text-light p-5 rounded">
+                <form action="{{route('applynow_store')}}" method="POST" class="text-light p-5 rounded">
+                    @if(session('status'))
+                    <div class="alert alert-succes bg-success mb-2" style="font-size: 14px">{{session('status')}}</div>
+                    @endif
+                    @if(session('error'))
+                    <div class="alert alert-danger bg-danger mb-2" style="font-size: 14px">{{session('status')}}</div>
+                    @endif
                     @csrf
+                    @method('PUT')
                     <h3 class="text-center mb-5">APPLICATION FORM</h3>
+                    
+                   
+                   
                     <div class="mb-2">
-                      <label for="name" class="form-label">Full name</label>
-                      <input type="text" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;">
+                      <label for="fullname" class="form-label">Full name</label>
+                      <input type="text" name="fullname" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                        @error('fullname')
+                            <div class="error text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="mb-2">
-                        <label for="phone" class="form-label">Phone number</label>
-                        <input type="number" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;">
+                        <label for="cpnumber" class="form-label">Phone number</label>
+                        <input type="number" name="cpnumber" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                        @error('cpnumber')
+                            <div class="error text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="mb-2">
                         <label for="address" class="form-label">Complete address</label>
-                        <input type="text"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;">
+                        <input type="text" name="address"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                        @error('address')
+                            <div class="error text-danger">{{ $message }}</div>
+                        @enderror
                     </div>
                     <div class="mb-2">
-                        <label for="plan" class="form-label">Internet plan</label>
-                        <select name="internet-plan"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;">
+                        <label for="internet_plan" class="form-label">Internet plan</label>
+                        <select name="internet_plan"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
                             <option value="Choose internet plan"></option>
                             <option value="800" class="text-dark">800</option>
                             <option value="1000" class="text-dark">1000</option>

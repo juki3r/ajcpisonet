@@ -11,13 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('allclients', function (Blueprint $table) {
+        Schema::create('applications', function (Blueprint $table) {
             $table->id();
             $table->string('fullname');
+            $table->string('cpnumber');
             $table->string('address');
-            $table->string('accountNumber')->nullable();
-            $table->integer('plan');
-            $table->string('contact');
+            $table->string('internet_plan');
             $table->timestamps();
         });
     }
@@ -27,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('allclients');
+        Schema::dropIfExists('applications');
     }
 };
