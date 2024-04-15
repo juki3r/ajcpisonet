@@ -147,7 +147,7 @@
         </div>
       </div>
     </div>
-    <div class="row pb-5" style="background-color: rgb(85, 3, 85)">
+    <div class="row content_5 pb-5" style="background-color:rgb(33, 1, 65)">
       <div class="row text-light py-4 px-5 py-lg-3">
         <h1>Pricing Plans</h1>
         <h5 class="ms-lg-3">Requirements:</h5>
@@ -169,13 +169,25 @@
           </svg>
           Active email address (optional)
         </p>
+        <p class="ms-3 ms-lg-5 m-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+            <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+          </svg>
+          Installation fee of &#8369;1,200
+        </p>
+        <p class="ms-3 ms-lg-5 m-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+            <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+          </svg>
+          Includes 1 month advanced subscription
+        </p>
       </div>
-      <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-5 px-md-5 d-flex align-items-center justify-content-center">
-        <div class="card text-center p-0 bg-white shadow w-75" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light p-3">
+      <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 d-flex align-items-center justify-content-center">
+        <div class="card text-center p-0 w-75 border-none">
+          <div class="card-header border-0 bg-warning text-dark p-3">
             <h5 >UPTO 20MBPS</h5>
           </div>
-          <div class="card-body d-flex flex-column justify-content-space-between">
+          <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>800</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p>Free NETFLIX</p>
@@ -186,50 +198,50 @@
         </div>
       </div>
       {{-- PLAN 1000 --}}
-      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
-        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light p-3">
+      <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 py-md-4 d-flex align-items-center justify-content-center">
+        <div class="card text-center p-0 w-75 border-none">
+          <div class="card-header border-0 bg-warning text-dark p-3">
             <h5 >UPTO 30MBPS</h5>
           </div>
-          <div class="card-body">
-            <h1 class="mt-4 mt-lg-1 mb-0 pb-0 position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px" class="pesosign">&#8369;</span>1,000</h1>
-            <p  style="margin-top:-8px">Monthly</p>
-          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          <div class="card-body d-flex bg-white flex-column justify-content-space-between">
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,000</h1>
+            <p class="" style="margin-top:-14px">Monthly</p>
+            <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning m-auto py-2 px-3 mb-4">Apply Now</button>
-          </div>
+            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
+          </div>  
         </div>
       </div>
       {{-- PLAN 1300 --}}
-      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3">
-        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light p-3">
+      <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 py-md-4 d-flex align-items-center justify-content-center">
+        <div class="card text-center p-0 w-75 border-none">
+          <div class="card-header border-0 bg-warning text-dark p-3">
             <h5 >UPTO 50MBPS</h5>
           </div>
-          <div class="card-body">
-            <h1 class="mt-4 mt-lg-1 mb-0 pb-0 position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px" class="pesosign">&#8369;</span>1,300</h1>
-            <p  style="margin-top:-8px">Monthly</p>
-          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          <div class="card-body d-flex bg-white flex-column justify-content-space-between">
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,300</h1>
+            <p class="" style="margin-top:-14px">Monthly</p>
+            <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning m-auto py-2 px-3 mb-4">Apply Now</button>
+            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
           </div>
         </div>
       </div>
       {{-- PLAN 1500 --}}
-      <div class="col-12 col-lg-3 col-md-6 py-4 px-5 py-lg-3 ">
-        <div class="card text-center p-0 bg-white shadow" style="border: 1px solid rgb(85, 3, 85)">
-          <div class="card-header border-0 bg-dark text-light p-3">
+      <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 py-md-4 d-flex align-items-center justify-content-center">
+        <div class="card text-center p-0 w-75 border-none">
+          <div class="card-header border-0 bg-warning text-dark p-3">
             <h5 >UPTO 100MBPS</h5>
           </div>
-          <div class="card-body">
-            <h1 class="mt-4 mt-lg-1 mb-0 pb-0 position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px" class="pesosign">&#8369;</span>1,500</h1>
-            <p  style="margin-top:-8px">Monthly</p>
-          <p class="mt-5 fw-bold">Free NETFLIX</p>
+          <div class="card-body d-flex bg-white flex-column justify-content-space-between">
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,500</h1>
+            <p class="" style="margin-top:-14px">Monthly</p>
+            <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning m-auto py-2 px-3 mb-4">Apply Now</button>
+            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
           </div>
         </div>
       </div>
