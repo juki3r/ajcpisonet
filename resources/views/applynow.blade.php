@@ -13,7 +13,7 @@
                     <h3 class="text-center mb-5">APPLICATION FORM</h3>
                     <div class="mb-2">
                       <label for="name" class="form-label">Full name</label>
-                      <input type="text" class="form-control" >
+                      <input type="text" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.1)">
                     </div>
                     <div class="mb-2">
                         <label for="phone" class="form-label">Phone number</label>
@@ -33,7 +33,7 @@
                             <option value="1500" class="text-light">1500</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-warning">Submit</button>
+                    <button type="submit" class="btn btn-warning mt-3">Submit</button>
                   </form>
             </div>
         </div>  
