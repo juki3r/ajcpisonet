@@ -24,7 +24,7 @@
                    
                     <div class="mb-2">
                       <label for="fullname" class="form-label">Full name</label>
-                      <input type="text" name="fullname" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                      <input type="text" name="name" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
                         @error('fullname')
                             <div class="error text-danger" style="font-size: 14px">{{ $message }}</div>
                         @enderror
