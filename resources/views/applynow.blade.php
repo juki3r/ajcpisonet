@@ -26,21 +26,21 @@
                       <label for="fullname" class="form-label">Full name</label>
                       <input type="text" name="fullname" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
                         @error('fullname')
-                            <div class="error text-danger">{{ $message }}</div>
+                            <div class="error text-danger" style="font-size: 14px">{{ $message }}</div>
                         @enderror
                     </div>
                     <div class="mb-2">
                         <label for="cpnumber" class="form-label">Phone number</label>
                         <input type="number" name="cpnumber" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
                         @error('cpnumber')
-                            <div class="error text-danger">{{ $message }}</div>
+                            <div class="error text-danger" style="font-size: 14px">{{ $message }}</div>
                         @enderror
                     </div>
                     <div class="mb-2">
                         <label for="address" class="form-label">Complete address</label>
                         <input type="text" name="address"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
                         @error('address')
-                            <div class="error text-danger">{{ $message }}</div>
+                            <div class="error text-danger" style="font-size: 14px">{{ $message }}</div>
                         @enderror
                     </div>
                     <div class="mb-2">
