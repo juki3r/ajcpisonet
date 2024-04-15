@@ -28,10 +28,10 @@
                         <label for="plan" class="form-label">Internet plan</label>
                         <select name="internet-plan"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;">
                             <option value="Choose internet plan"></option>
-                            <option value="800" >800</option>
-                            <option value="1000" >1000</option>
-                            <option value="1300" >1300</option>
-                            <option value="1500" >1500</option>
+                            <option value="800" class="text-dark">800</option>
+                            <option value="1000" class="text-dark">1000</option>
+                            <option value="1300" class="text-dark">1300</option>
+                            <option value="1500" class="text-dark">1500</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-warning mt-3">Submit</button>
