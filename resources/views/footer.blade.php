@@ -21,7 +21,7 @@
                 <img src="{{asset('images/location.JPG')}}" alt="Location" class="footer_image">
             </div>
         </div>
-        <div class="row text-white py-2" style="background-color: black">
+        <div class="row text-white py-2" style="background-color: rgb(1, 30, 39)">
             <div class="col-12 col-md-6 text-center " style="font-size: 12px">
                 &copy AJC Pisonet @ 2024. All Rights Reserved.
             </div>

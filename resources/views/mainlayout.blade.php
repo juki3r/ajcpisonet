@@ -348,7 +348,7 @@ body{
 
 .footer-row
 {
-    background-color: black;
+    background-color: rgb(1, 30, 39);
 }
 
 .footer_image{
