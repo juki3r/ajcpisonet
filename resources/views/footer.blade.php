@@ -1,4 +1,4 @@
-    <div class="container-fluid-break">
+    <div class="container-fluid">
         <div class="row footer-row text-light ">
             <div class="col-12 col-md-5 d-flex flex-column align-items-center  px-xl-5">
                 <a class="m-auto ms-lg-5 ps-3 pt-3 ps-lg-3 ps-xl-5 pt-xl-3 ms-xl-5 mt-xl-3 mb-xl-0" href="/">
@@ -25,10 +25,11 @@
             <div class="col-12 col-md-6 text-center " style="font-size: 12px">
                 &copy AJC Pisonet @ 2024. All Rights Reserved.
             </div>
-            <div class="col-12 col-md-6 text-center " style="font-size: 12px">
-                <div class="row">
+            <div class="col-12 col-md-6 text-center" style="font-size: 12px">
+                <div class="row p-0 m-0">
                     <div class="col-12 col-md-3">Terms & Conditions</div>
                     <div class="col-12 col-md-3">Privacy Policy</div>
+                    <div class="col-12 col-md-3">Sponsored by JIB</div>
                     <div class="col-12 col-md-3">Powered by JuKi3r</div>
                 </div>
             </div>

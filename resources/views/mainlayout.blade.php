@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" ></script>
     <style>
 body{
-
+    background-color: rgb(1, 30, 39);
 }
 
 .navbar-toggler:focus,
@@ -359,7 +359,15 @@ body{
         height: 100%;
     }
 }
-
+.dimmer_apply
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 
 
@@ -404,6 +412,5 @@ body{
 
       {{-- SECTION --}}
       @yield('content')
-      @include('footer')
 </body>
 </html>
