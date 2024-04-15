@@ -269,18 +269,6 @@ body{
     left: 0;
 }
 
-.google-map {
-     padding-bottom: 50%;
-     position: relative;
-}
-
-.google-map iframe {
-     height: 100%;
-     width: 100%;
-     left: 0;
-     top: 0;
-     position: absolute;
-}
 
 .form_div{
         width: 100% ;
