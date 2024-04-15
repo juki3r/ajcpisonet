@@ -22,7 +22,7 @@
                     by main TELCO. Enhancing the digital world by providing what you
                     need for communications, gaming and businesses.
                   </p>
-                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
+                  <a href="applynow" type="button" class="btn text-dark bg-warning mt-3">Apply Now</a>
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@
                     latest adventure of your life and communicate to your love ones and convince them
                     to enjoy thier life too.
                   </p>
-                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
+                  <a href="applynow" type="button" class="btn text-dark bg-warning mt-3">Apply Now</a>
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@
                     Help to connect people to fastest growing digital world, by providing ultrafast and reliable internet
                     connectivity.
                   </p>
-                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
+                  <a href="applynow" type="button" class="btn text-dark bg-warning mt-3">Apply Now</a>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@
                     To be the most trusted internet provider, by helping people to evolve and understand
                     about fast growing technology. The INTERNET ERA.
                   </p>
-                  <button type="button" class="btn text-dark bg-warning mt-3">Apply Now</button>
+                  <a href="applynow" type="button" class="btn text-dark bg-warning mt-3">Apply Now</a>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@
           <div class="promos_content position-absolute top-50 w-100">
             <h4 class="text-light ms-2 fw-light">REASONS</h4>
             <h3 class="ms-2 fw-bold text-light">Why choose AJC PISONET ?</h3>
-            <button type="button" class="btn btn-warning ms-2 mt-4">Apply Now</button>
+            <a href="applynow" type="button" class="btn btn-warning ms-2 mt-4">Apply Now</a>
           </div>
       </div>
       <div class="col">
