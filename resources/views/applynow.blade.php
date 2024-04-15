@@ -25,7 +25,7 @@
                     </div>
                     <div class="mb-2">
                         <label for="plan" class="form-label">Internet plan</label>
-                        <select name="internet-plan" class="form-control bg-dark tex-light">
+                        <select name="internet-plan" class="form-control bg-dark text-light">
                             <option value="Choose internet plan"></option>
                             <option value="800" class="text-light">800</option>
                             <option value="1000" class="text-light">1000</option>
