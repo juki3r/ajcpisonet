@@ -27,7 +27,7 @@
                         <label for="plan" class="form-label">Internet plan</label>
                         <input type="text" class="form-control bg-dark text-light">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-warning">Submit</button>
                   </form>
             </div>
         </div>  
