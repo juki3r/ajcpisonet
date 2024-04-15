@@ -148,7 +148,7 @@
       </div>
     </div>
     <div class="row content_5 pb-5" style="background-color:rgb(33, 1, 65)">
-      <div class="row text-light py-4 px-5 py-lg-3">
+      <div class="row text-light fw-lighter py-4 px-5 py-lg-3">
         <h1>Pricing Plans</h1>
         <h5 class="ms-lg-3">Requirements:</h5>
         <p class="ms-3 ms-lg-5 m-0">
