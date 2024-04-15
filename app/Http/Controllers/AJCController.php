@@ -24,7 +24,7 @@ class AJCController extends Controller
     public function applynow_store (Request $request){
         $request->validate([
             'fullname' => 'required|unique:applications',
-            'cpnumber' => 'required|max:11|min:11',
+            'cpnumber' => 'required|max:11|min:11|unique:applications',
             'address' => 'required',
             'internet_plan' => 'required'
         ]);
