@@ -11,17 +11,14 @@
             <div class="form_div">
                 <form action="{{route('applynow_store')}}" method="POST" class="text-light p-5 rounded">
                     @if(session('status'))
-                    <div class="alert alert-succes bg-success mb-2" style="font-size: 14px">{{session('status')}}</div>
+                        <div class="alert alert-succes bg-success mb-2 mt-5" style="font-size: 12px">{{session('status')}}</div>
                     @endif
                     @if(session('error'))
-                    <div class="alert alert-danger bg-danger mb-2" style="font-size: 14px">{{session('status')}}</div>
+                        <div class="alert alert-danger bg-danger mb-2 mt-5" style="font-size: 12px">{{session('status')}}</div>
                     @endif
                     @csrf
                     @method('PUT')
                     <h3 class="text-center mb-5">APPLICATION FORM</h3>
-                    
-                   
-                   
                     <div class="mb-2">
                       <label for="fullname" class="form-label">Full name</label>
                       <input type="text" name="fullname" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
