@@ -100,7 +100,8 @@ class AJCController extends Controller
         Automation::create([
             's1' => 'Working'
         ]);
-        return view('include.homeautomation');
+        // return view('include.homeautomation');
+        echo $s1;
     }
 
    
