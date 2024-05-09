@@ -97,13 +97,15 @@ class AJCController extends Controller
 
     public function automation (Request $request)
     {
-        $request->validate([
-            's1'
-        ]);
-        Automation::create([
-            's1' => 'Working'
-        ]);
+        // $request->validate([
+        //     's1'
+        // ]);
+        // Automation::create([
+        //     's1' => 'Working'
+        // ]);
         // return view('include.homeautomation');
+
+        echo $request->s1;
     }
 
    
