@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 else { 
     echo "Connected to mysql database. "; 
 
-    $sql = "INSERT INTO automations (s1) VALUES ("OK")"; 
+    $sql = "INSERT INTO automations (s1) VALUES ('OK')"; 
  
 
 
