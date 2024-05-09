@@ -30,7 +30,7 @@ else { echo "Connected to mysql database. "; }
     {
 		$val = $_POST['s1'];
 // Update your tablename here
-	        $sql = "INSERT INTO automation (s1) VALUES ("ok")"; 
+	        $sql = "INSERT INTO automation (s1) VALUES (1)"; 
  
 
 
