@@ -2,8 +2,8 @@
 
 <?php
     $host = "localhost";		         // host = localhost because database hosted on the same server where PHP files are hosted
-    $dbname = "u539703395_home";              // Database name
-    $username = "u539703395_home";		// Database username
+    $dbname = "u539703395_ajcpisonet";              // Database name
+    $username = "u539703395_juki3r";		// Database username
     $password = "Durt3211631!";	        // Database password
 
 
