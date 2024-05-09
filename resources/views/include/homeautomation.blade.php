@@ -16,7 +16,18 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-else { echo "Connected to mysql database. "; }
+else { 
+    echo "Connected to mysql database. "; 
+    $sql = "INSERT INTO automation (s1) VALUES (1)"; 
+ 
+
+
+ if ($conn->query($sql) === TRUE) {
+     echo "Values inserted in MySQL database table.";
+ } else {
+     echo "Error: " . $sql . "<br>" . $conn->error;
+ }
+}
 
    
 // Get date and time variables
@@ -40,7 +51,6 @@ else { echo "Connected to mysql database. "; }
 		    echo "Error: " . $sql . "<br>" . $conn->error;
 		}
 	}
-    $sql = "INSERT INTO automation (s1) VALUES (1)"; 
 
 
 // Close MySQL connection
