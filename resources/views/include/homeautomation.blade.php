@@ -32,7 +32,7 @@ else {
     {
 		$val = $_POST['s1'];
 // Update your tablename here
-	        $sql = "INSERT INTO automations (s1) VALUES ("OK")"; 
+	        $sql = "INSERT INTO automations (s1) VALUES ('".OK."')"; 
  
 
 
