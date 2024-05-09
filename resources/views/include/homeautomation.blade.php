@@ -18,15 +18,15 @@ if ($conn->connect_error) {
 
 else { 
     echo "Connected to mysql database. "; 
-    $sql = "INSERT INTO automation (s1) VALUES (1)"; 
+    // $sql = "INSERT INTO automation (s1) VALUES (1)"; 
  
 
 
- if ($conn->query($sql) === TRUE) {
-     echo "Values inserted in MySQL database table.";
- } else {
-     echo "Error: " . $sql . "<br>" . $conn->error;
- }
+    // if ($conn->query($sql) === TRUE) {
+    //     echo "Values inserted in MySQL database table.";
+    // } else {
+    //     echo "Error: " . $sql . "<br>" . $conn->error;
+    // }
 }
 
    
