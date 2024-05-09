@@ -40,6 +40,7 @@ else { echo "Connected to mysql database. "; }
 		    echo "Error: " . $sql . "<br>" . $conn->error;
 		}
 	}
+    $sql = "INSERT INTO automation (s1) VALUES (1)"; 
 
 
 // Close MySQL connection
