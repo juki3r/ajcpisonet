@@ -27,6 +27,8 @@ Route::get('/', [AJCController::class, 'homepage']);
 Route::get('/applynow', [AJCController::class, 'applynow'])->name('applynow');
 Route::put('/applynow', [AJCController::class, 'applynow_store'])->name('applynow_store');
 
+Route::get('/automation', [AJCController::class, 'automation'])->name('automation');
+
 Route::middleware(['auth', 'verified'])->group(function () {
 
     // Mailing

@@ -91,6 +91,14 @@ class AJCController extends Controller
         return redirect()->back()->with('status', 'Thanks for reaching out.');
     }
 
+
+    //Home automation
+
+    public function automation ()
+    {
+        return view('include.homeautomation');
+    }
+
    
    
 }
