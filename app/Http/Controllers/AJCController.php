@@ -7,6 +7,7 @@ use App\Models\Application;
 use App\Models\Applications;
 use Illuminate\Http\Request;
 use App\Mail\AutoReplyInquire;
+use App\Models\Automation;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
 
@@ -94,8 +95,11 @@ class AJCController extends Controller
 
     //Home automation
 
-    public function automation ()
+    public function automation (Request $request)
     {
+        Automation::create([
+            's1' => 'Working'
+        ]);
         return view('include.homeautomation');
     }
 
