@@ -75,9 +75,9 @@
       <div class="col-12 p-0 m-0"  style="height: 100vh;position:relative">
         <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
         <div class="dimmer_violet"></div>
-        <div class="investor_content position-absolute top-50 left-0 w-100">
+        <div class="investor_content position-absolute top-0 left-0 w-100">
             <div class="col-9 col-lg-5">
-              <h3 class="text-warning ms-3 ms-md-5 ps-md-3">BE OUR INVESTOR</h3>
+              <h3 class="text-warning ms-3 ms-md-5 ps-md-3" style="margin-top: 100px">BE OUR INVESTOR</h3>
               <p class="text-light ms-3 mt-5 ms-md-5 ps-md-3" style="font-weight:lighter; font-siz:13px;">
                 Do you want to have a monthly passive income? Come and join us! <br>
                 AJC PISONET offers partnership as we expanding our network all over the province of Iloilo.
