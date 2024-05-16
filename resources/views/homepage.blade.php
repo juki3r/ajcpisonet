@@ -76,11 +76,15 @@
         <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
         <div class="dimmer_violet"></div>
         <div class="promos_content position-absolute top-50 w-100">
-          <h3 class="content_header text-warning">BE OUR INVESTOR</h3>
-                  <p class="bg-info">
-                    To be the most trusted internet provider, by helping people to evolve and understand
-                    about fast growing technology. The INTERNET ERA.
-                  </p>
+          <div class="row">
+            <div class="col-6 col-lg-3">
+              <h3 class="text-warning">BE OUR INVESTOR</h3>
+              <p class="text-light">
+                Do you want to have a monthly passive income? Come and join us! <br>
+                AJC PISONET offers partnership as we expanding our network all over the province of Iloilo.
+              </p>
+            </div>
+          </div>
         </div>
     </div>
     </div>

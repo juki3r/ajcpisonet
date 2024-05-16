@@ -234,7 +234,7 @@ body{
 {
     height: 100%;
     width: 100%;
-    background-color: rgba(23, 3, 133, 0.7);
+    background-color: rgba(23, 3, 133, 0.8);
     position: absolute;
     top: 0;
     left: 0;
