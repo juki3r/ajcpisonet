@@ -75,7 +75,7 @@
       <div class="col-12 p-0 m-0"  style="height: 100vh;position:relative">
         <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
         <div class="dimmer_violet"></div>
-        <div class="promos_content position-absolute top-50 w-100">
+        <div class="promos_content position-absolute top-0 left-0 w-100">
             <div class="col-6 col-lg-3">
               <h3 class="text-warning">BE OUR INVESTOR</h3>
               <p class="text-light">
