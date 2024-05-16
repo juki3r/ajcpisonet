@@ -1,14 +1,11 @@
 @extends('mainlayout')
 @section('content')
-    {{-- <div style="margin-top: -100px" class="container">
-        
-    </div> --}}
 <div class="container-fluid p-0" style="margin-top:-100px">
     <div class="" style="height: 100vh; position:relative;">
         <img src="{{asset('images/images.jpg')}}" alt="Family Net" height="100%" width="100%">
         <div class="dimmer_apply"></div>
         <div class="d-flex flex-column justify-content-center align-items-center" style="position: absolute;height:100%;width:100%;top:0;">
-            <div class="form_div">
+            <div class="form_div mt-3">
                 <form action="{{route('applynow_store')}}" method="POST" class="text-light p-5 rounded">
                     @if(session('status'))
                         <div class="alert alert-succes bg-success mb-2 mt-5" style="font-size: 12px">{{session('status')}}</div>
