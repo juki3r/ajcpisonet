@@ -25,21 +25,21 @@
                     </div>
                     <div class="mb-2">
                         <label for="cpnumber" class="form-label">Phone number</label>
-                        <input type="number" name="cpnumber" class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                        <input type="number" name="cpnumber" class="form-control text-light"  style="background-color:black; text-transform: capitalize;" required>
                         @error('cpnumber')
                             <div class="error text-danger" style="font-size: 14px">{{ $message }}</div>
                         @enderror
                     </div>
                     <div class="mb-2">
                         <label for="address" class="form-label">Complete address</label>
-                        <input type="text" name="address"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                        <input type="text" name="address"  class="form-control text-light"  style="background-color:black; text-transform: capitalize;" required>
                         @error('address')
                             <div class="error text-danger" style="font-size: 14px">{{ $message }}</div>
                         @enderror
                     </div>
                     <div class="mb-2">
                         <label for="internet_plan" class="form-label">Internet plan</label>
-                        <select name="internet_plan"  class="form-control text-warning"  style="background-color:rgba(255, 255, 255, 0.2); text-transform: capitalize;" required>
+                        <select name="internet_plan"  class="form-control text-light"  style="background-color:black; text-transform: capitalize;" required>
                             <option value="Choose internet plan"></option>
                             <option value="800" class="text-dark">800</option>
                             <option value="1000" class="text-dark">1000</option>
@@ -47,7 +47,7 @@
                             <option value="1500" class="text-dark">1500</option>
                         </select>
                     </div>
-                    <button type="submit" class="btn btn-warning mt-3">Submit</button>
+                    <button type="submit" class="btn btn-warning mt-3 w-100">Submit</button>
                   </form>
             </div>
         </div>  
