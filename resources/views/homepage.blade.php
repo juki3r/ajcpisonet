@@ -81,6 +81,11 @@
               <p class="text-light" style="font-weight:lighter">
                 Do you want to have a monthly passive income? Come and join us! <br>
                 AJC PISONET offers partnership as we expanding our network all over the province of Iloilo.
+                We guarantee that our internet services will be the leading provider that comes with more features
+                or advantages than other provider. <br>
+                For more details please contact us at <span class="text-warning">ajcpisonet@gmail.com</span> 
+                or call/text <span class="text-warning">+639562078139</span>. <br>
+                Looking forward to be your business partner. Thank you.
               </p>
             </div>
         </div>
