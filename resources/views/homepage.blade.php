@@ -76,7 +76,11 @@
         <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
         <div class="dimmer_violet"></div>
         <div class="promos_content position-absolute top-50 w-100">
-          <h4 class="text-warning ms-2 fw-bold">BE OUR INVESTOR</h4>
+          <h3 class="content_header">BE OUR INVESTOR</h3>
+                  <p>
+                    To be the most trusted internet provider, by helping people to evolve and understand
+                    about fast growing technology. The INTERNET ERA.
+                  </p>
         </div>
     </div>
     </div>
