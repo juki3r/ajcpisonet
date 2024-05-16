@@ -76,7 +76,6 @@
         <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
         <div class="dimmer_violet"></div>
         <div class="promos_content position-absolute top-50 w-100">
-          <div class="row">
             <div class="col-6 col-lg-3">
               <h3 class="text-warning">BE OUR INVESTOR</h3>
               <p class="text-light">
@@ -84,7 +83,6 @@
                 AJC PISONET offers partnership as we expanding our network all over the province of Iloilo.
               </p>
             </div>
-          </div>
         </div>
     </div>
     </div>
