@@ -236,6 +236,15 @@ body{
     top: 0;
     left: 0;
 }
+.dimmer_violet
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(59, 3, 47, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .card{
   background-color: transparent;
   border: none;
