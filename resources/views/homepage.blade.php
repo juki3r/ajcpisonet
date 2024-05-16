@@ -77,8 +77,8 @@
         <div class="dimmer_violet"></div>
         <div class="investor_content position-absolute top-0 left-0 w-100">
             <div class="col-6 col-lg-5">
-              <h3 class="text-warning mt-3 ms-3">BE OUR INVESTOR</h3>
-              <p class="text-light" style="font-weight:lighter">
+              <h3 class="text-warning mt-5 ms-3">BE OUR INVESTOR</h3>
+              <p class="text-light ms-3" style="font-weight:lighter; font-siz:14px;">
                 Do you want to have a monthly passive income? Come and join us! <br>
                 AJC PISONET offers partnership as we expanding our network all over the province of Iloilo.
                 We guarantee that our internet services will be the leading provider that comes with more features
