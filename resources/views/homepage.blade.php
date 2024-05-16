@@ -72,20 +72,18 @@
     </div>
     {{-- INVESTORS --}}
     <div class="row">
-      <div class="col-12 col-lg-5 p-0 m-0"  style="height: 100vh;position:relative">
-        <img src="{{asset('assets/internet-head.jpg')}}" alt="Reasons" height="100%" width="100%">
+      <div class="col-12 p-0 m-0"  style="height: 100vh;position:relative">
+        <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
         <div class="dimmer_red"></div>
         <div class="promos_content position-absolute top-50 w-100">
           <h4 class="text-light ms-2 fw-light">REASONS</h4>
-          <h3 class="ms-2 fw-bold text-light">Why choose AJC PISONET ?</h3>
-          <a href="applynow" type="button" class="btn btn-warning ms-2 mt-4">Apply Now</a>
         </div>
     </div>
     </div>
     {{-- REASONS --}}
     <div class="row">
-      <div class="col-12 p-0 m-0"  style="height: 100vh;position:relative">
-          <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
+      <div class="col-12 col-lg-5 p-0 m-0"  style="height: 100vh;position:relative">
+          <img src="{{asset('assets/internet-head.jpg')}}" alt="Reasons" height="100%" width="100%">
           <div class="dimmer_red"></div>
           <div class="promos_content position-absolute top-50 w-100">
             <h4 class="text-light ms-2 fw-light">REASONS</h4>
