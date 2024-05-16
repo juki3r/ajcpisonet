@@ -231,10 +231,10 @@ body{
     left: 0;
 }
 @media screen and(max-width:500px){
-    .investor_content{
+    /* .investor_content{
         margin-top: 20px;
         margin-left: 20px;
-    }
+    } */
 }
 .dimmer_violet
 {
