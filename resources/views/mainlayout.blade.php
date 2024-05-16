@@ -213,16 +213,10 @@ body{
   margin: auto;
   align-items: end;
 }
-
-
-
-
-
 .promos{
   position: relative;
   height: 100vh;
 }
-
 .promos img{
   height: 100%;
   width: 100%;
