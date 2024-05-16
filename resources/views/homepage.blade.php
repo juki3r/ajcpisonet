@@ -193,7 +193,7 @@
             <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
+            <a href="/applynow800" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
           </div>
         </div>
       </div>

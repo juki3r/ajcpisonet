@@ -26,6 +26,7 @@ use App\Http\Controllers\LinkaccountCoctroller;
 Route::get('/', [AJCController::class, 'homepage']);
 Route::get('/applynow', [AJCController::class, 'applynow'])->name('applynow');
 Route::put('/applynow', [AJCController::class, 'applynow_store'])->name('applynow_store');
+Route::get('/applynow800', [AJCController::class, 'applynow800'])->name('applynow800');
 
 Route::get('/automation', [AJCController::class, 'automation'])->name('automation');
 
