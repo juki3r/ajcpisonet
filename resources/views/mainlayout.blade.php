@@ -25,7 +25,7 @@ body{
     border: none !important;
 }
 .navbar-toggler-icon{
-    background-color: red !important;
+    /* background-color: red !important; */
 }
 .navBar
 {
@@ -424,7 +424,7 @@ body{
                  
           </button> --}}
           <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-danger"></span>
             <div class="close-icon py-1">✖</div>
         </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
