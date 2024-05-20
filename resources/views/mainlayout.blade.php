@@ -403,6 +403,7 @@ body{
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
     display: inline;
+    background-color: red;
 }
 
 
