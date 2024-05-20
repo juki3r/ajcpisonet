@@ -398,9 +398,9 @@ body{
     display: none;
 }
 
-/* .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-    display: inline;
-} */
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: none;
+}
 
 
 
