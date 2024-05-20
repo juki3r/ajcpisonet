@@ -25,20 +25,8 @@
             </div>
         </div>
         <div class="row text-white py-2" style="background-color: rgb(1, 30, 39)">
-            <div class="col-12 col-md-6 text-center " style="font-size: 12px">
-                &copy AJC Pisonet @ 2024. All Rights Reserved.
-            </div>
-            <div class="col-12 col-md-6 text-center" style="font-size: 12px">
-                <div class="row p-0 m-0">
-                    <ul class="list-unstyled text-md-end">
-                        <li class="d-md-inline mx-md-2">Terms & Conditions</li>
-                        <li class="d-md-inline mx-md-2">Privacy Policy</li>
-                        <li class="d-md-inline mx-md-2">Sponsored by: JIB</li>
-                        <li class="d-md-inline mx-md-2">Powered by: JuKi3r MTA</li>
-                    </ul>
-                </div>
             <div class="col-12 text-center " style="font-size: 12px">
-                &copy Jupiter Arcenas @ 2024. All Rights Reserved.
+                &copy AJC Pisonet @ 2024. All Rights Reserved.
             </div>
         </div>
 </div>
