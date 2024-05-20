@@ -422,11 +422,11 @@ body{
                   </svg>
                  
           </button> --}}
-          <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
             <div class="close-icon py-1">✖</div>
         </button>
-          <div class="collapse navbar-collapse" id="collapsingNavbar" >
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
               <li class="nav-item">
                 <a class="nav-link {{ Request::path() ==  '/' ? 'active' : ''  }}" aria-current="page" href="/">Home</a>
