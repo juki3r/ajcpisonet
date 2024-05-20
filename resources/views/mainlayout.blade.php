@@ -416,24 +416,27 @@ body{
             <a class="navbar-brand ms-5" href="/">
                 <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"  class="logo">
             </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                {{-- <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-danger" viewBox="0 0 16 16">
+          {{-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-danger" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                  </svg> --}}
-                  <span class="navbar-toggler-icon"></span>
-                    <div class="close-icon py-1">✖</div>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+                  </svg>
+                 
+          </button> --}}
+          <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+            <span class="navbar-toggler-icon"></span>
+            <div class="close-icon py-1">✖</div>
+        </button>
+          <div class="collapse navbar-collapse" id="collapsingNavbar" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
               <li class="nav-item">
                 <a class="nav-link {{ Request::path() ==  '/' ? 'active' : ''  }}" aria-current="page" href="/">Home</a>
               </li>
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a class="nav-link" href="#">Internet</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacts</a>
-              </li>
+              </li> --}}
               <li class="nav-item">
                 <a class="nav-link" href="{{route('applynow')}}">Apply Now</a>
               </li>
