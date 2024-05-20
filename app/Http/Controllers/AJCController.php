@@ -22,6 +22,22 @@ class AJCController extends Controller
     {
         return view('applynow');
     }
+    public function applynow800()
+    {
+        return view('include.applynow800');
+    }
+    public function applynow1000()
+    {
+        return view('include.applynow1000');
+    }
+    public function applynow1300()
+    {
+        return view('include.applynow1300');
+    }
+    public function applynow1500()
+    {
+        return view('include.applynow1500');
+    }
     public function applynow_store (Request $request){
         $request->validate([
             'fullname' => 'required|unique:applications',

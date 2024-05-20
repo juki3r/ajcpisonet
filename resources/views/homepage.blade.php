@@ -34,7 +34,7 @@
                   <p>
                     Stay connected while at vacation. Direct access to social media to upload
                     latest adventure of your life and communicate to your love ones and convince them
-                    to enjoy thier life too.
+                    to enjoy their life too.
                   </p>
                   <a href="applynow" type="button" class="btn text-dark bg-warning mt-3">Apply Now</a>
                 </div>
@@ -70,7 +70,25 @@
       </div>
       </div>
     </div>
-
+    {{-- INVESTORS --}}
+    <div class="row">
+      <div class="col-12 p-0 m-0"  style="height: 100vh;position:relative">
+        <img src="{{asset('images/invest.jpg')}}" alt="Reasons" height="100%" width="100%">
+        <div class="dimmer_violet"></div>
+        <div class="investor_content position-absolute top-0 left-0 w-100">
+            <div class="col-9 col-lg-5">
+              <h3 class="text-warning ms-3 ms-md-5 ps-md-3" style="margin-top: 150px">BE OUR INVESTOR</h3>
+              <p class="text-light ms-3 mt-5 ms-md-5 ps-md-3" style="font-weight:lighter; font-siz:13px;">
+                Do you want to have a monthly passive income? Come and join us! <br>
+                AJC PISONET offers partnership as we expanding our network all over the province of Iloilo.
+                For more details please contact us at <span class="text-warning">ajcpisonet@gmail.com</span> 
+                or call/text <span class="text-warning">+639562078139</span>.
+                Looking forward to be your business partner. Thank you.
+              </p>
+            </div>
+        </div>
+    </div>
+    </div>
     {{-- REASONS --}}
     <div class="row">
       <div class="col-12 col-lg-5 p-0 m-0"  style="height: 100vh;position:relative">
@@ -161,7 +179,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
           </svg>
-          Application form via online <a href="applynow" class="text-light">Click here</a>
+          Application form via online <a href="applynow" class="text-light" style="font-style:italic">Click here</a>
         </p>
         <p class="ms-3 ms-lg-5 m-0">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
@@ -169,18 +187,18 @@
           </svg>
           Active email address (optional)
         </p>
-        <p class="ms-3 ms-lg-5 m-0">
+        {{-- <p class="ms-3 ms-lg-5 m-0">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
           </svg>
-          Installation fee of &#8369;1,500
+          Installation fee of &#8369;2,000
         </p>
         <p class="ms-3 ms-lg-5 m-0">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
             <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
           </svg>
           With 1 month advanced subscription
-        </p>
+        </p> --}}
       </div>
       <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 d-flex align-items-center justify-content-center">
         <div class="card text-center p-0 w-75 border-none">
@@ -188,12 +206,12 @@
             <h5 >UPTO 20MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
-            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>800</h1>
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>999</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
+            <a href="/applynow800" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
           </div>
         </div>
       </div>
@@ -204,12 +222,12 @@
             <h5 >UPTO 30MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
-            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,000</h1>
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,199</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
+            <a href="/applynow1000" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
           </div>  
         </div>
       </div>
@@ -220,12 +238,12 @@
             <h5 >UPTO 50MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
-            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,300</h1>
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,299</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
+            <a href="/applynow1300" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
           </div>
         </div>
       </div>
@@ -236,12 +254,12 @@
             <h5 >UPTO 100MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
-            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,500</h1>
+            <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,499</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p>Free NETFLIX</p>
           </div>
           <div class="card-footer border-0 bg-white">
-            <button class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</button>
+            <a href="/applynow1500" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
           </div>
         </div>
       </div>
