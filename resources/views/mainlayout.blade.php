@@ -24,9 +24,9 @@ body{
 .navbar-toggler{
     border: none !important;
 }
-/* .navbar-toggler-icon{
+.navbar-toggler-icon{
     background-color: red !important;
-} */
+}
 .navBar
 {
     background-color: rgba(0, 0, 0, 0.6);
