@@ -14,7 +14,7 @@ body{
     background-color: rgb(1, 30, 39);
 }
 
-/* .navbar-toggler:focus,
+.navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline: none !important;
@@ -24,7 +24,7 @@ body{
 .navbar-toggler{
     border: none !important;
 }
-.navbar-toggler-icon{
+/* .navbar-toggler-icon{
     background-color: red !important;
 } */
 .navBar
