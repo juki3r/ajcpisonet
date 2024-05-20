@@ -11,11 +11,11 @@
                 </p>
             </div> 
             <div class="col-12 col-md-2 d-flex flex-column justify-content-center text-center nav_bottom  py-3 pt-sm-5 mt-lg-3 mt-xl-0 pt-xl-1">
-                <a href="" class="text-light text-decoration-none" >Sitemap</a>
-                <a href="" class="text-light text-decoration-none">Home</a>
-                <a href="" class="text-light text-decoration-none">Internet</a>
-                <a href="" class="text-light text-decoration-none">Contacts</a>
-                <a href="" class="text-light text-decoration-none">Apply Now</a>
+                {{-- <a href="" class="text-light text-decoration-none" >Sitemap</a> --}}
+                <a href="/" class="text-light text-decoration-none">Home</a>
+                {{-- <a href="" class="text-light text-decoration-none">Internet</a>
+                <a href="" class="text-light text-decoration-none">Contacts</a> --}}
+                <a href="applynow" class="text-light text-decoration-none">Apply Now</a>
             </div>
             <div class="col-12 col-md-5  d-flex flex-column justify-content-center  p-3 py-sm-4">
                 {{-- <img src="{{asset('images/location.JPG')}}" alt="Location" class="footer_image"> --}}
@@ -33,7 +33,7 @@
                     <div class="col-12 col-md-3">Terms & Conditions</div>
                     <div class="col-12 col-md-3">Privacy Policy</div>
                     <div class="col-12 col-md-3">Sponsored by JIB</div>
-                    <div class="col-12 col-md-3">Powered by JuKi3r</div>
+                    <div class="col-12 col-md-3">Powered by Jupiter Arcenas</div>
                 </div>
             </div>
         </div>
