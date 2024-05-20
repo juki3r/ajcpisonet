@@ -28,13 +28,8 @@
             <div class="col-12 col-md-6 text-center " style="font-size: 12px">
                 &copy AJC Pisonet @ 2024. All Rights Reserved.
             </div>
-            <div class="col-12 col-md-6 text-center" style="font-size: 12px">
-                <div class="row p-0 m-0">
-                    <div class="col-12 col-md-3">Terms & Conditions</div>
-                    <div class="col-12 col-md-3">Privacy Policy</div>
-                    <div class="col-12 col-md-3">Sponsored by JIB</div>
-                    <div class="col-12 col-md-3">Powered by Jupiter Arcenas</div>
-                </div>
+            <div class="col-12 col-md-6 text-center text-md-end" style="font-size: 12px">
+                Powered by Jupiter Arcenas
             </div>
         </div>
 </div>
