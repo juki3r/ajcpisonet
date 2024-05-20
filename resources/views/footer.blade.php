@@ -30,10 +30,12 @@
             </div>
             <div class="col-12 col-md-6 text-center" style="font-size: 12px">
                 <div class="row p-0 m-0">
-                    <div class="col-12 col-md-3">Terms & Conditions</div>
-                    <div class="col-12 col-md-3">Privacy Policy</div>
-                    <div class="col-12 col-md-3">Sponsored by JIB</div>
-                    <div class="col-12 col-md-3">Powered by JuKi3r</div>
+                    <ul class="list-unstyled text-md-end">
+                        <li class="d-md-inline mx-md-2">Terms & Conditions</li>
+                        <li class="d-md-inline mx-md-2">Privacy Policy</li>
+                        <li class="d-md-inline mx-md-2">Sponsored by: JIB</li>
+                        <li class="d-md-inline mx-md-2">Powered by: JuKi3r MTA</li>
+                    </ul>
                 </div>
             </div>
         </div>
