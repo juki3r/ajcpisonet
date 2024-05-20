@@ -424,12 +424,12 @@ body{
                  
           </button> --}}
           <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-danger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-danger" viewBox="0 0 16 16">
+            {{-- <span class="  text-danger"> --}}
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-danger navbar-toggler-icon" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                   </svg>
-            </span>
-            <div class="close-icon py-1">✖</div>
+            {{-- </span> --}}
+            <div class="close-icon py-1 text-danger" style="font-size: 24px">✖</div>
         </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
