@@ -34,7 +34,7 @@
                   <p>
                     Stay connected while at vacation. Direct access to social media to upload
                     latest adventure of your life and communicate to your love ones and convince them
-                    to enjoy thier life too.
+                    to enjoy their life too.
                   </p>
                   <a href="applynow" type="button" class="btn text-dark bg-warning mt-3">Apply Now</a>
                 </div>
