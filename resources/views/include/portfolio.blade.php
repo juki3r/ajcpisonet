@@ -30,6 +30,9 @@
 .navbar-toggler{
     border: none !important;
 }
+.navbar{
+    background-color: black;
+}
 </style>
 </head>
 <body>
@@ -49,11 +52,11 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
               <li class="nav-item">
-                <a class="nav-link {{ Request::path() ==  '/' ? 'active' : ''  }}" aria-current="page" href="/">Home</a>
+                <a class="nav-link {{ Request::path() ==  '/jupiterarcenas' ? 'active' : ''  }}" aria-current="page" href="/">Home</a>
               </li>
     
               <li class="nav-item">
-                <a class="nav-link" href="{{route('applynow')}}">Apply Now</a>
+                <a class="nav-link" href="">About</a>
               </li>
             </ul>
             
