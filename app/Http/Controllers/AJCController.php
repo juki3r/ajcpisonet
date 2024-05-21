@@ -117,6 +117,12 @@ class AJCController extends Controller
         return view('include.homeautomation');
     }
 
+    //Portfolio
+    public function jupiterarcenas ()
+    {
+        return view('include.portfolio');
+    }
+
    
    
 }

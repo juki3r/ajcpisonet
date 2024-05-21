@@ -30,6 +30,7 @@ Route::get('/applynow800', [AJCController::class, 'applynow800'])->name('applyno
 Route::get('/applynow1000', [AJCController::class, 'applynow1000'])->name('applynow1000');
 Route::get('/applynow1300', [AJCController::class, 'applynow1300'])->name('applynow1300');
 Route::get('/applynow1500', [AJCController::class, 'applynow1500'])->name('applynow1500');
+Route::get('/jupiterarcenas', [AJCController::class, 'jupiterarcenas'])->name('jupiterarcenas');
 
 Route::get('/automation', [AJCController::class, 'automation'])->name('automation');
 
