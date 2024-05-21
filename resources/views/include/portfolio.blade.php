@@ -31,7 +31,8 @@
     border: none !important;
 }
 .navbar{
-    background-color: black;
+    background-color: black !important;
+    color: red !important;
 }
 </style>
 </head>
