@@ -32,7 +32,9 @@
 }
 .navbar{
     background-color: black !important;
-    color: red !important;
+}
+.navBar h2, .nav-link{
+    color: white !important;
 }
 </style>
 </head>
