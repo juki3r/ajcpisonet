@@ -214,7 +214,7 @@
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,000</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
-            <p>Home Internet</p>
+            <p>Unlimited Home Internet</p>
           </div>
           <div class="card-footer border-0 bg-white">
             <a href="/applynow800" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
@@ -230,7 +230,7 @@
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,300</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
-            <p>Home Internet</p>
+            <p>Unlimited Home Internet</p>
           </div>
           <div class="card-footer border-0 bg-white">
             <a href="/applynow1000" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
