@@ -40,11 +40,11 @@
                     <div class="mb-2">
                         <label for="internet_plan" class="form-label">Internet plan</label>
                         <select name="internet_plan"  class="form-control text-light"  style="background-color:black; text-transform: capitalize;" required>
-                            <option value="999">999</option>
-                            <option value="999" class="text-light">999</option>
-                            <option value="1199" class="text-light">1199</option>
-                            <option value="1299" class="text-light">1299</option>
-                            <option value="1499" class="text-light">1499</option>
+                            <option value="1000">1000</option>
+                            <option value="1000" class="text-light">1000</option>
+                            <option value="1300" class="text-light">1300</option>
+                            <option value="1500" class="text-light">1500</option>
+                            <option value="1800" class="text-light">1800</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-warning mt-3 w-100">Submit</button>
