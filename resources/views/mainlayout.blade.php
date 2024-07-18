@@ -388,20 +388,80 @@ body{
      position: absolute;
 }
 /* ditch the ugle blue outline */
-.navbar-toggler:focus,
+/* .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: 0;
-}
+} */
 
 /* hide close when burger shown */
-.navbar-toggler.collapsed .close-icon {
+/* .navbar-toggler.collapsed .close-icon {
     display: none;
 }
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
     display: none;
-}
+} */
 
+
+.navbar-toggler{
+            width: 20px;
+            height: 20px;
+            position: relative;
+            transition: .5s ease-in-out;
+        }
+        .navbar-toggler,
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus{
+            outline: none;
+            box-shadow: none;
+            border: 0;
+        }
+        .navbar-toggler span{
+            padding: 0;
+            margin: 0;
+        }
+        .toggler-icon{
+            display: block;
+            position: absolute;
+            height: 3px;
+            width: 100%;
+            background-color: red;
+            border-radius: 1px;
+            opacity: 1;
+            left: 0;
+            transform: rotate(0deg);
+            transition: .25s ease-in-out;
+        }
+        .middle-bar{
+            margin-top: 0px;
+        }
+
+        .navbar-toggler .top-bar{
+            margin-top: 0px;
+            transform: rotate(135deg);
+        }
+        .navbar-toggler .middle-bar{
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+        .navbar-toggler .bottom-bar{
+            margin-top: 0px;
+            transform: rotate(-135deg);
+        }
+
+        .navbar-toggler.collapsed .top-bar{
+            margin-top: -20px;
+            transform: rotate(0deg);
+        }
+        .navbar-toggler.collapsed .middle-bar{
+            opacity: 1;
+            filter: alpha(opacity=100);
+        }
+        .navbar-toggler.collapsed .bottom-bar{
+            margin-top: 20px;
+            transform: rotate(0deg);
+        }
 
 
     </style>
@@ -413,12 +473,13 @@ body{
             <a class="navbar-brand ms-5" href="/">
                 <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"  class="logo">
             </a>
-          <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list text-danger navbar-toggler-icon" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-                  </svg>
-            <div class="close-icon py-1 text-danger" style="font-size: 24px; font-color:red">✖</div>
-        </button>
+
+            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
               <li class="nav-item">
