@@ -474,11 +474,11 @@ body{
                 <img src="{{asset('assets/ajclogo.png')}}" alt="LOGO"  class="logo">
             </a>
 
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="toggler-icon top-bar"></span>
                 <span class="toggler-icon middle-bar"></span>
                 <span class="toggler-icon bottom-bar"></span>
-            </button>
+            </button> -->
 
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
