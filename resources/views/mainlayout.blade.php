@@ -480,7 +480,7 @@ body{
                 <span class="toggler-icon bottom-bar"></span>
             </button> -->
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+          <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
             <ul class="navbar-nav me-auto mb-3 mb-lg-0" style="width: 100%">
               <li class="nav-item">
                 <a class="nav-link {{ Request::path() ==  '/' ? 'active' : ''  }}" aria-current="page" href="/">Home</a>
@@ -499,7 +499,7 @@ body{
               </li> --}}
             </ul>
             
-          </div>
+          </div> -->
         </div>
       </nav>
 
