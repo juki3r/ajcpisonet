@@ -237,7 +237,7 @@
       <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 py-md-4 d-flex align-items-center justify-content-center">
         <div class="card text-center p-0 w-75 border-none">
           <div class="card-header border-0 bg-warning text-dark p-3">
-            <h5 >UPTO 35MBPS</h5>
+            <h5 >UPTO 100MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,299</h1>
@@ -255,7 +255,7 @@
       <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 py-md-4 d-flex align-items-center justify-content-center">
         <div class="card text-center p-0 w-75 border-none">
           <div class="card-header border-0 bg-warning text-dark p-3">
-            <h5 >UPTO 50MBPS</h5>
+            <h5 >UPTO 150MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,499</h1>
