@@ -209,13 +209,13 @@
       <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 d-flex align-items-center justify-content-center">
         <div class="card text-center p-0 w-75 border-none">
           <div class="card-header border-0 bg-warning text-dark p-3">
-            <h5 >UPTO 20MBPS</h5>
+            <h5 >UPTO 30MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,000</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p class="p-0 m-0">Unlimited Home Internet</p>
-            <p class="p-0 m-0" style="margin-top: -8px !important">6 Gadgets can connect</p>
+            <p class="p-0 m-0" style="margin-top: -8px !important">15 Gadgets can connect</p>
           </div>
           <div class="card-footer border-0 bg-white">
             <a href="/applynow800" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
@@ -226,13 +226,13 @@
       <div class="col-12 col-lg-3 col-md-6 py-3  px-5 px-lg-2 px-xl-0 px-md-0 py-md-4 d-flex align-items-center justify-content-center">
         <div class="card text-center p-0 w-75 border-none">
           <div class="card-header border-0 bg-warning text-dark p-3">
-            <h5 >UPTO 30MBPS</h5>
+            <h5 >UPTO 50MBPS</h5>
           </div>
           <div class="card-body d-flex bg-white flex-column justify-content-space-between">
             <h1 class=" position-relative fw-bold"> <span style="font-size: 20px;position:absolute;margin-left:-15px;margin-top:10px;" class="pesosign">&#8369;</span>1,300</h1>
             <p class="" style="margin-top:-14px">Monthly</p>
             <p class="p-0 m-0">Unlimited Home Internet</p>
-            <p class="p-0 m-0" style="margin-top: -8px !important">10 Gadgets can connect</p>
+            <p class="p-0 m-0" style="margin-top: -8px !important">20 Gadgets can connect</p>
           </div>
           <div class="card-footer border-0 bg-white">
             <a href="/applynow1000" type="button" class="btn btn-warning  m-auto py-2 px-3 mb-4">Apply Now</a>
