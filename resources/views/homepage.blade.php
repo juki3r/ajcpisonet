@@ -18,7 +18,7 @@
                 <div class="carousel_content">
                   <h3 class="content_header">Ultrafast and reliable fiber and wireless internet</h3>
                   <p>
-                    AJC  provides internet services to areas mostly not covered
+                    AJC Pisonet provides internet services to areas mostly not covered
                     by main TELCO. Enhancing the digital world by providing what you
                     need for communications, gaming and businesses.
                   </p>
