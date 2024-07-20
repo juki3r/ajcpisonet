@@ -492,7 +492,7 @@ body{
                 <a class="nav-link" href="#">Contacts</a>
               </li> --}}
               <li class="nav-item">
-                <a class="nav-link" href="{{route('applynow')}}">Apply Now</a>
+                <a class="nav-link {{ Request::path() ==  '/applynow' ? 'active' : ''  }}"" href="{{route('applynow')}}">Apply Now</a>
               </li>
               {{-- <li class="nav-item ms-lg-auto">
                 <a class="nav-link {{ Request::path() ==  'login' ? 'active' : ''  }}" href="login">Login</a>
