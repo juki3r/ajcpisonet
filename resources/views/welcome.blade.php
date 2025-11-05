@@ -106,7 +106,7 @@
     }
 
     .navbar-toggler-icon {
-      display: none; /* hide default Bootstrap icon */
+      display: none;
     }
 
     .navbar-toggler::before,
@@ -149,13 +149,18 @@
       opacity: 0;
     }
 
-    /* Mobile menu fade */
     .collapse {
       transition: all 0.4s ease;
     }
 
     /* Responsive adjustments */
     @media (max-width: 768px) {
+      /* Smaller navbar padding on mobile */
+      .navbar {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+
       .carousel-caption-left-bottom {
         bottom: 30px;
         left: 20px;
@@ -181,8 +186,8 @@
 
 <body>
   <!-- 🌟 Transparent Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid px-5">
+  <nav class="navbar navbar-expand-lg px-5 px-md-3 px-lg-5">
+    <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="#">
         <img src="{{ asset('ajclogo.jpg') }}" alt="Logo" width="40" height="40" class="me-2 rounded-circle">
         AJC Pisonet
