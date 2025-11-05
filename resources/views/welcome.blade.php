@@ -37,7 +37,7 @@
     /* Left bottom caption */
     .carousel-caption-left-bottom {
       position: absolute;
-      bottom: 160px;
+      bottom: 60px;
       left: 60px;
       color: #fff;
       text-align: left;
