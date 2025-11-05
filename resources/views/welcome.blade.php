@@ -175,7 +175,7 @@
       }
 
       .carousel-caption-left-bottom {
-        bottom: 130px;
+        bottom: 110px;
         left: 20px;
         max-width: 90%;
       }
