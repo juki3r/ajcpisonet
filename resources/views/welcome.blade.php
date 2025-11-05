@@ -227,7 +227,6 @@
               We aim to provide a nonstop internet experience — keeping homes, businesses, and communities connected without interruption.
               Experience the power of reliable internet with <span class="highlight">AJC Pisonet</span>.
             </p>
-            <a href="#" class="btn btn-danger btn-lg shadow">Learn More</a>
           </div>
         </div>
 
