@@ -103,6 +103,7 @@
       width: 30px;
       height: 22px;
       transition: transform 0.3s ease;
+      background: #ff4c4c;
     }
 
     .navbar-toggler-icon {
