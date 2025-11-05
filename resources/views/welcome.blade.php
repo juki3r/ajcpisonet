@@ -134,24 +134,35 @@
       bottom: 0;
     }
 
-    /* Transform to X */
+   /* Transform to X */
     .navbar-toggler:not(.collapsed)::before {
-      transform: rotate(45deg);
-      top: 9px;
+    transform: rotate(45deg);
+    top: 9px;
+    background: #E50914; /* 🔴 Red when active */
     }
 
     .navbar-toggler:not(.collapsed)::after {
-      transform: rotate(-45deg);
-      bottom: 9px;
+    transform: rotate(-45deg);
+    bottom: 9px;
+    background: #E50914; /* 🔴 Red when active */
     }
 
     .navbar-toggler:not(.collapsed) span {
-      opacity: 0;
+    opacity: 0;
     }
 
-    .collapse {
-      transition: all 0.4s ease;
+    /* Optional: subtle hover glow */
+    .navbar-toggler:hover::before,
+    .navbar-toggler:hover::after,
+    .navbar-toggler:hover span {
+    background: #ff4c4c; /* brighter red on hover */
     }
+
+    /* Collapse smooth animation */
+    .collapse {
+    transition: all 0.4s ease;
+    }
+
 
     /* Responsive adjustments */
     @media (max-width: 768px) {
