@@ -172,7 +172,7 @@
       }
 
       .carousel-caption-left-bottom p {
-        font-size: 1rem;
+        font-size: 12px;
       }
     }
 
