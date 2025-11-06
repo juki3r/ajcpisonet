@@ -275,7 +275,7 @@
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="{{ asset('images/carousel3.jpg') }}" class="d-block w-100 carousel-image" alt="Slide 1" />
+          <img src="{{ asset('images/carousel6.jpg') }}" class="d-block w-100 carousel-image" alt="Slide 1" />
           <div class="overlay"></div>
           <div class="carousel-caption-left-bottom">
             <h1 class="text-warning">AJC Pisonet</h1>
