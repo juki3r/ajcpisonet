@@ -320,10 +320,9 @@
               background-size: stretch;
               background-position: center;
               background-repeat: no-repeat;
+              position: relative;
             ">
-
-
-
+            <div class="overlay"></div>
         </div>
       </div>
     </div>
