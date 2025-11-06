@@ -335,8 +335,8 @@
               position: relative;
             ">
             <div class="overlay"></div>
-            <div class="choose_text">
-              <h1>Why choose AJC ?</h1>
+            <div class="choose_text ">
+              <h1 class="bg-danger">Why choose AJC ?</h1>
             </div>
         </div>
       </div>
