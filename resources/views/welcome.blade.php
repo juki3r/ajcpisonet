@@ -54,7 +54,7 @@
     .choose_text {
       position: absolute;
       top: 50%;
-      left: 0;
+      left: 10%;
       transform: translate(-50%, -50%);
       color: #fff;
       z-index: 1;
@@ -335,9 +335,9 @@
               position: relative;
             ">
             <div class="overlay"></div>
-            <div class="choose_text ">
-              <h1 class="bg-danger">Why choose AJC ?</h1>
-            </div>
+            <div class="choose_text">
+            <h1><span class="highlight">Why choose</span> AJC ?</h1>
+          </div>
         </div>
       </div>
     </div>
