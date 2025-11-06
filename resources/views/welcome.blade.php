@@ -57,7 +57,6 @@
       left: 50%;
       transform: translate(-50%, -50%);
       color: #fff;
-      text-align: center;
       z-index: 1;
       max-width: 600px;
       opacity: 0;
