@@ -205,6 +205,9 @@
     }
 
     @media (max-width: 768px) {
+      .carousel-image {
+        object-fit: stretch;
+      }
       .navbar {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
@@ -222,9 +225,6 @@
 
       .carousel-caption-left-bottom p {
         font-size: 14px;
-      }
-      .carousel-image {
-        object-fit: stretch;
       }
     }
 
