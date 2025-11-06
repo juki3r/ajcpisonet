@@ -315,6 +315,7 @@
     <div id="about" class="container-fluid p-0 h-100">
       <div class="row h-100">
         <div class="col-12 col-md-4 bg-danger">
+          <img src="{{assest('/images/choose.jpg')}}" alt="">
           <h2>Why choose AJC</h2>
         </div>
       </div>
