@@ -277,7 +277,7 @@
           <div class="carousel-caption-left-bottom">
             <h1 class="text-warning">AJC Pisonet</h1>
             <p>
-              AJC Pisonet is the #1 local internet service provider committed to
+              Internet service provider committed to
               delivering fast, stable, and affordable connectivity for everyone.
               We aim to provide a nonstop internet experience — keeping homes,
               businesses, and communities connected without interruption.
