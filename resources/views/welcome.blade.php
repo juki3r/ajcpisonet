@@ -314,8 +314,7 @@
 
     <div id="about" class="container-fluid p-0 h-100">
       <div class="row h-100">
-        <div class="col-12 col-md-4 bg-danger p-0 m-0">
-          <img src="{{asset('/images/choose.jpg')}}" alt="" width="100%" height="100%">
+        <div class="col-12 col-md-4 bg-danger p-0 m-0" style="background-image: url('/images/choose.jpg')">
           <h2>Why choose AJC</h2>
         </div>
       </div>
