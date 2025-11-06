@@ -51,6 +51,20 @@
       animation: fadeUp 1.2s ease forwards;
     }
 
+    /* Caption position */
+    .choose_text {
+      position: absolute;
+      bottom: 150px;
+      left: 60px;
+      color: #fff;
+      text-align: center;
+      z-index: 2;
+      max-width: 600px;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeUp 1.2s ease forwards;
+    }
+
     @keyframes fadeUp {
       0% {
         opacity: 0;
@@ -323,7 +337,7 @@
               position: relative;
             ">
             <div class="overlay"></div>
-            <div class="carousel-caption-left-bottom">
+            <div class="choose_text">
             <h1><span class="highlight">Why choose</span> AJC ?</h1>
           </div>
         </div>
