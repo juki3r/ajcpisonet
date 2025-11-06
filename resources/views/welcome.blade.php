@@ -317,7 +317,7 @@
         <div class="col-12 col-md-4 p-0 m-0"
             style="
               background-image: url('/images/choose.jpg');
-              background-size: cover;
+              background-size: stretch;
               background-position: center;
               background-repeat: no-repeat;
             ">
