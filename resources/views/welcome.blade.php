@@ -246,7 +246,7 @@
           height="40"
           class="me-2 rounded-circle"
         />
-        AJC Pisonet
+        AJC
       </a>
       <button
         class="navbar-toggler collapsed"
@@ -275,7 +275,7 @@
           <img src="{{ asset('images/carousel7.jpg') }}" class="d-block w-100 carousel-image" alt="Slide 1" />
           <div class="overlay"></div>
           <div class="carousel-caption-left-bottom">
-            <h1 class="text-warning">AJC Pisonet</h1>
+            <h1 class="text-warning">AJC Internet</h1>
             <p>
               <span class="highlight">Internet service provider</span> committed to
               delivering fast, stable, and affordable connectivity for everyone.
