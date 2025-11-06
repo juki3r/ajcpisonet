@@ -23,7 +23,7 @@
     }
 
     .carousel-image {
-      object-fit: contain;
+      object-fit: stretch;
     }
 
     /* Overlay dim */
