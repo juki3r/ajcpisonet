@@ -291,7 +291,7 @@
           <div class="carousel-caption-left-bottom">
             <h1>Smart <span class="highlight">Solutions</span></h1>
             <p>We build reliable, efficient systems that make life simpler and better.
-              Internet of Things, Computer assembly, CCTV and even repair jobs.
+              Internet of Things, Computer assembly, CCTV, Software and Programming, and even repair jobs.
             </p>
           </div>
         </div>
