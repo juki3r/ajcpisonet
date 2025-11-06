@@ -23,7 +23,7 @@
     }
 
     .carousel-image {
-      object-fit: stretch;
+      object-fit: cover;
     }
 
     /* Overlay dim */
@@ -222,6 +222,9 @@
 
       .carousel-caption-left-bottom p {
         font-size: 14px;
+      }
+      .carousel-image {
+        object-fit: stretch;
       }
     }
 
