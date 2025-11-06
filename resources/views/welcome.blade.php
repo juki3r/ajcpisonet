@@ -242,11 +242,10 @@
         <img
           src="{{ asset('ajclogo.jpg') }}"
           alt="Logo"
-          width="40"
-          height="40"
+          width="60"
+          height="60"
           class="me-2 rounded-circle"
         />
-        AJC
       </a>
       <button
         class="navbar-toggler collapsed"
@@ -309,6 +308,31 @@
       </div>
     </div>
   </div>
+
+  <!-- 📞 Contact Section -->
+  <section id="contact" class="text-center">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="mb-5">Have questions or need help? Reach out — we’d love to hear from you!</p>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="mb-3">
+              <textarea rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- 📞 Contact Section -->
   <section id="contact" class="text-center">
