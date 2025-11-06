@@ -290,7 +290,9 @@
           <div class="overlay"></div>
           <div class="carousel-caption-left-bottom">
             <h1>Smart <span class="highlight">Solutions</span></h1>
-            <p>We build reliable, efficient systems that make life simpler and better.</p>
+            <p>We build reliable, efficient systems that make life simpler and better.
+              Internet of Things, Computer assembly, CCTV and even repair jobs.
+            </p>
           </div>
         </div>
         <div class="carousel-item">
