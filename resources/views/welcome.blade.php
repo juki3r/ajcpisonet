@@ -277,7 +277,7 @@
           <div class="carousel-caption-left-bottom">
             <h1 class="text-warning">AJC Pisonet</h1>
             <p>
-              Internet service provider committed to
+              <span class="highlight">Internet service provider</span> committed to
               delivering fast, stable, and affordable connectivity for everyone.
               We aim to provide a nonstop internet experience — keeping homes,
               businesses, and communities connected without interruption.
