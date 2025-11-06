@@ -300,7 +300,10 @@
           <div class="overlay"></div>
           <div class="carousel-caption-left-bottom">
             <h1><span class="highlight">Innovation</span> Meets Simplicity</h1>
-            <p>Explore our latest projects and discover what makes us different.</p>
+            <p>Explore our latest projects and discover what makes us different.
+              Island internet from wireless to fiber installation with fast internet speed
+              and a secure transmission with unterupted surfing to the internet.
+            </p>
           </div>
         </div>
       </div>
