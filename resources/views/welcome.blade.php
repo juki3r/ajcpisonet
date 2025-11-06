@@ -323,6 +323,9 @@
               position: relative;
             ">
             <div class="overlay"></div>
+            <div class="carousel-caption-left-bottom">
+            <h1><span class="highlight">Why choose</span> AJC ?</h1>
+          </div>
         </div>
       </div>
     </div>
