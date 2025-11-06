@@ -336,8 +336,8 @@
             ">
             <div class="overlay"></div>
             <div class="choose_text">
-            <h1><span class="highlight">Why choose</span> AJC ?</h1>
-          </div>
+              <h1>Why choose AJC ?</h1>
+            </div>
         </div>
       </div>
     </div>
