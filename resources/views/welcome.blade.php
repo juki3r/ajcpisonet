@@ -58,7 +58,7 @@
       transform: translate(-50%, -50%);
       color: #fff;
       text-align: center;
-      z-index: 2;
+      z-index: 1;
       max-width: 600px;
       opacity: 0;
       animation: fadeUp 1.2s ease forwards;
