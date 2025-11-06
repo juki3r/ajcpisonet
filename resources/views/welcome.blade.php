@@ -309,16 +309,16 @@
     </div>
   </div>
 
-  <!-- 📞 Contact Section -->
-  <section id="about" class="h-100">
-    <div class="container-fluid p-0 h-100">
+  <!-- 📞 About Section -->
+
+    <div id="about" class="container-fluid p-0 h-100">
       <div class="row h-100">
         <div class="col-12 col-md-6">
           <h2>Why choose AJC</h2>
         </div>
       </div>
     </div>
-  </section>
+
 
   <!-- 📞 Contact Section -->
   <section id="contact" class="text-center">
