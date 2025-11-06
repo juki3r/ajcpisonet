@@ -311,8 +311,12 @@
 
   <!-- 📞 Contact Section -->
   <section id="about" class="text-center">
-    <div class="container">
-      <h2>Why Choose AJC</h2>
+    <div class="container-fluid p-0">
+      <div class="row h-100">
+        <div class="col-12 col-md-6">
+          <h2>Why choose AJC</h2>
+        </div>
+      </div>
     </div>
   </section>
 
