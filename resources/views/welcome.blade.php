@@ -206,7 +206,7 @@
 
     @media (max-width: 768px) {
       .carousel-image {
-        object-fit: stretch;
+        object-fit: stretch !important;
       }
       .navbar {
         padding-left: 1rem !important;
