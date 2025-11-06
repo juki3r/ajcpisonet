@@ -51,19 +51,19 @@
       animation: fadeUp 1.2s ease forwards;
     }
 
-    /* Caption position */
     .choose_text {
       position: absolute;
-      bottom: 150px;
-      left: 60px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       color: #fff;
       text-align: center;
       z-index: 2;
       max-width: 600px;
       opacity: 0;
-      transform: translateY(40px);
       animation: fadeUp 1.2s ease forwards;
     }
+
 
     @keyframes fadeUp {
       0% {
