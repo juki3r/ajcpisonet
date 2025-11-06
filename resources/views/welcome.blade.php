@@ -281,8 +281,7 @@
               delivering fast, stable, and affordable connectivity for everyone.
               We aim to provide a nonstop internet experience — keeping homes,
               businesses, and communities connected without interruption.
-              Experience the power of reliable internet with
-              <span class="highlight">AJC Pisonet</span>.
+              Experience the power of reliable internet with our affordable internet plans.
             </p>
           </div>
         </div>
