@@ -206,6 +206,9 @@
 
     /* === MOBILE FIXES === */
     @media (max-width: 768px) {
+      .choose{
+        height: 100% !important;
+      }
       .carousel,
       .carousel-inner,
       .carousel-item,
@@ -254,9 +257,7 @@
         padding-left: 1rem !important;
         padding-right: 1rem !important;
       }
-      .choose{
-        height: 100% !important;
-      }
+      
     }
   </style>
 </head>
