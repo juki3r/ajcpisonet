@@ -421,9 +421,14 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
               </ul>
-              <button class="btn btn-danger mt-3 apply-btn" data-bs-toggle="modal" data-bs-target="#applyModal">
+              <button 
+                class="btn btn-danger mt-3 apply-btn" 
+                data-bs-toggle="modal" 
+                data-bs-target="#applyModal"
+                data-plan="₱899 - Up to 50 Mbps">
                 Apply Now
               </button>
+
             </div>
           </div>
         </div>
@@ -482,7 +487,7 @@
 
 
 
-<!-- Modal -->
+<!-- 💬 Modal -->
 <div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content text-dark">
@@ -502,10 +507,12 @@
             <label class="form-label">Full Name</label>
             <input type="text" name="fullname" class="form-control" placeholder="Enter your full name" required>
           </div>
+
           <div class="mb-3">
             <label class="form-label">Contact Number</label>
-            <input type="text" name="contact_number" class="form-control" placeholder="Enter your contact number" required>
+            <input type="text" name="contact_number" class="form-control" maxlength="11" placeholder="e.g. 09123456789" required>
           </div>
+
           <div class="mb-3">
             <label class="form-label">Address</label>
             <input type="text" name="address" class="form-control" placeholder="Enter your address" required>
@@ -549,7 +556,7 @@
   const submitBtn = document.getElementById("submitApplication");
   const form = document.getElementById("applyForm");
 
-  // When clicking "Apply Now"
+  // 🟥 When clicking "Apply Now"
   applyButtons.forEach(btn => {
     btn.addEventListener("click", e => {
       e.preventDefault();
@@ -560,18 +567,21 @@
     });
   });
 
-  // Submit form
+  // 🟩 Handle Submit
   submitBtn.addEventListener("click", async () => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("/apply", {
+      const response = await fetch("{{ url('/apply') }}", {
         method: "POST",
-        headers: { "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value },
+        headers: {
+          "X-CSRF-TOKEN": form.querySelector('input[name="_token"]').value,
+        },
         body: formData,
       });
 
       const result = await response.json();
+
       if (response.ok) {
         alert("✅ Application submitted successfully!");
         form.reset();
@@ -580,6 +590,7 @@
         alert("⚠️ " + (result.message || "Something went wrong"));
       }
     } catch (error) {
+      console.error(error);
       alert("❌ Error submitting application.");
     }
   });
