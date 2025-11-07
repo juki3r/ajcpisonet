@@ -352,7 +352,7 @@
         style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center;">
         <div class="overlay"></div>
         <div class="choose_text text-center">
-          <h1 class="text-warning mt-5"><span class="text-light text-underline">Why choose</span> AJC?</h1>
+          <h1 class="text-warning mt-5"><span class="text-light text-underlined">Why choose</span> AJC?</h1>
         </div>
       </div>
 
