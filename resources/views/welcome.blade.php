@@ -213,6 +213,9 @@
       justify-content: center;
       padding: 1rem;
     }
+    .choose_text {
+      z-index: 2;
+    }
 
     .choose > .overlay { position: absolute; inset: 0; z-index: 1; }
 
