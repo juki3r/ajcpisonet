@@ -339,6 +339,14 @@
             <h1><span class="highlight">Why choose</span> AJC ?</h1>
           </div>
         </div>
+        <div class="row h-100">
+          <div class="col-12 col-md-6">
+            <h2>Redundant Internet</h2>
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Back-up Power</h2>
+          </div>
+        </div>
       </div>
     </div>
 
