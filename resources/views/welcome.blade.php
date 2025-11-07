@@ -23,7 +23,7 @@
     }
 
     .carousel-image {
-      object-fit: stretch;
+      object-fit: cover;
     }
 
     /* Overlay dim */
@@ -33,7 +33,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.6);
       z-index: 1;
     }
 
@@ -50,18 +50,6 @@
       transform: translateY(40px);
       animation: fadeUp 1.2s ease forwards;
     }
-
-    .choose_text {
-      position: absolute;
-      top: 50%;
-      left: 10%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      z-index: 1;
-      opacity: 0;
-      animation: fadeUp 1.2s ease forwards;
-    }
-
 
     @keyframes fadeUp {
       0% {
@@ -164,13 +152,6 @@
       opacity: 0;
     }
 
-    .navbar-toggler:hover::before,
-    .navbar-toggler:hover::after,
-    .navbar-toggler:hover span {
-      background: #ff4c4c;
-    }
-
-    /* Smooth scroll */
     html {
       scroll-behavior: smooth;
     }
@@ -216,33 +197,63 @@
       transform: scale(1.05);
     }
 
-    @media (max-width: 768px) {
-      .navbar {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-      }
-
-      .carousel-caption-left-bottom {
-        bottom: 120px;
-        left: 20px;
-        max-width: 90%;
-      }
-
-      .carousel-caption-left-bottom h1 {
-        font-size: 1.8rem;
-      }
-
-      .carousel-caption-left-bottom p {
-        font-size: 14px;
-      }
-    }
-
     body,
     html {
       margin: 0;
       padding: 0;
       overflow-x: hidden;
-      height: 100vh;
+    }
+
+    /* === MOBILE FIXES === */
+    @media (max-width: 768px) {
+      .carousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-image {
+        height: 70vh !important;
+      }
+
+      .carousel-image {
+        object-fit: cover !important;
+      }
+
+      .carousel-caption-left-bottom {
+        bottom: 40px;
+        left: 20px;
+        font-size: 14px;
+        max-width: 90%;
+      }
+
+      #about .col-md-4,
+      #about .col-md-8 {
+        height: auto !important;
+      }
+
+      #about .row {
+        flex-direction: column;
+      }
+
+      .choose_text {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      #plans .card {
+        margin-bottom: 20px;
+      }
+
+      #plans h2 {
+        font-size: 1.8rem;
+      }
+
+      .navbar {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
     }
   </style>
 </head>
@@ -272,7 +283,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -291,9 +302,7 @@
             <p>
               <span class="highlight">Internet service provider</span> committed to
               delivering fast, stable, and affordable connectivity for everyone.
-              We aim to provide a nonstop internet experience — keeping homes,
-              businesses, and communities connected without interruption.
-              Experience the power of reliable internet with our affordable internet plans.
+              We aim to provide nonstop internet — keeping homes and businesses connected without interruption.
             </p>
           </div>
         </div>
@@ -302,211 +311,147 @@
           <div class="overlay"></div>
           <div class="carousel-caption-left-bottom">
             <h1>Smart <span class="highlight">Solutions</span></h1>
-            <p>We build reliable, efficient systems that make life simpler and better.
-              Internet of Things, Computer assembly, CCTV, Software and Programming, and even repair jobs.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="{{ asset('images/carousel3.jpg') }}" class="d-block w-100 carousel-image" alt="Slide 3" />
-          <div class="overlay"></div>
-          <div class="carousel-caption-left-bottom">
-            <h1><span class="highlight">Innovation</span> Meets Simplicity</h1>
-            <p>Explore our latest projects and discover what makes us different.
-              Island internet from wireless to fiber installation with fast internet speed
-              and a secure transmission with unterupted surfing to the internet.
-            </p>
+            <p>We build reliable, efficient systems — IoT, computer assembly, CCTV, software, and repair jobs.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- 🧭 About Section -->
+  <div id="about" class="container-fluid p-0 h-100">
+    <div class="row h-100">
+      <!-- Left side -->
+      <div class="col-12 col-md-4 p-0 m-0"
+        style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center;">
+        <div class="overlay"></div>
+        <div class="choose_text text-center">
+          <h1><span class="highlight">Why choose</span> AJC?</h1>
+        </div>
+      </div>
 
-    <!--  About Section -->
-    <div id="about" class="container-fluid p-0 h-100">
-      <div class="row h-100">
-        <!-- Left side image -->
-        <div class="col-12 col-md-4 p-0 m-0 h-100"
-            style="
-              background-image: url('/images/choose.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
-              position: relative;
-            ">
-          <div class="overlay"></div>
-          <div class="choose_text text-center">
-            <h1><span class="highlight">Why choose</span> AJC ?</h1>
+      <!-- Right side -->
+      <div class="col-12 col-md-8 p-0 m-0">
+        <div class="row g-0">
+          <div class="col-12 col-md-6 bg-success text-light p-4 text-center">
+            <img src="{{asset('images/isp.png')}}" alt="ISP" width="70">
+            <h3 class="fw-bold mt-2">Redundant Internet</h3>
+            <p>Multiple internet connections ensure continuous connectivity — AJC guarantees uninterrupted service and reliability.</p>
+          </div>
+
+          <div class="col-12 col-md-6 bg-warning text-dark p-4 text-center">
+            <img src="{{asset('images/back-up.png')}}" alt="Backup" width="70">
+            <h3 class="fw-bold mt-2">Back-up Power</h3>
+            <p>Backup batteries and generators keep your connection stable during power outages — stay online always.</p>
+          </div>
+
+          <div class="col-12 col-md-6 bg-primary text-light p-4 text-center">
+            <img src="{{asset('images/affordable.png')}}" alt="Affordable" width="70">
+            <h3 class="fw-bold mt-2">Affordable Plans</h3>
+            <p>High-speed internet that fits your budget — flexible options for homes, gamers, and businesses.</p>
+          </div>
+
+          <div class="col-12 col-md-6 bg-secondary text-light p-4 text-center">
+            <img src="{{asset('images/customer.png')}}" alt="Support" width="70">
+            <h3 class="fw-bold mt-2">24/7 Support</h3>
+            <p>Our support team is always available for setup, billing, or troubleshooting assistance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🌐 Internet Plans -->
+  <div id="plans" class="container-fluid py-5" style="background: #0d0d0d; color: #fff;">
+    <div class="container text-center">
+      <h1 class="mb-4 fw-bold"><span class="highlight">Our</span> Internet Plans</h1>
+      <p class="mb-5" style="max-width: 600px; margin: 0 auto;">
+        Fast, reliable, and affordable — choose the perfect plan for your home or business with
+        <span class="highlight">AJC Internet</span>. All plans include <b>AJCFlix</b>: unlimited movies, TV channels, karaoke, and entertainment!
+      </p>
+
+      <div class="row g-4">
+        <!-- Plan cards -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱899</h2>
+              <h5>Up to 50 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+            </div>
           </div>
         </div>
 
-        <!-- Right side features -->
-        <div class="col-12 col-md-8 p-0 m-0">
-          <div class="row h-50">
-            <!-- Redundant Internet -->
-            <div class="col-12 col-md-6 bg-success text-light p-4 d-flex flex-column justify-content-center">
-              <div class="text-center mb-2">
-                <img src="{{asset('images/isp.png')}}" alt="ISP Icon" width="80" height="80">
-              </div>
-              <h3 class="text-center fw-bold">Redundant Internet</h3>
-              <p class="text-center px-3" style="font-size: 14px">
-                Multiple internet connections or backup links ensure continuous connectivity in case 
-                one provider fails. AJC guarantees uninterrupted service and reliability for every user.
-              </p>
-            </div>
-
-            <!-- Backup Power -->
-            <div class="col-12 col-md-6 bg-warning text-dark p-4 d-flex flex-column justify-content-center">
-              <div class="text-center mb-2">
-                <img src="{{asset('images/back-up.png')}}" alt="Backup Icon" width="80" height="80">
-              </div>
-              <h3 class="text-center fw-bold">Back-up Power</h3>
-              <p class="text-center px-3" style="font-size: 14px">
-                Our systems are equipped with backup batteries and generators to keep your 
-                connection stable even during power outages. We ensure you stay online no matter what.
-              </p>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱1199</h2>
+              <h5>Up to 100 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
             </div>
           </div>
+        </div>
 
-          <div class="row h-50">
-            <!-- Affordable Plans -->
-            <div class="col-12 col-md-6 bg-primary text-light p-4 d-flex flex-column justify-content-center">
-              <div class="text-center mb-2">
-                <img src="{{asset('images/affordable.png')}}" alt="Affordable Icon" width="80" height="80">
-              </div>
-              <h3 class="text-center fw-bold">Affordable Plans</h3>
-              <p class="text-center px-3" style="font-size: 14px">
-                Enjoy high-speed internet at a price that fits your budget. We provide flexible 
-                plans for homes, businesses, and gamers—offering great value without compromising quality.
-              </p>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱1499</h2>
+              <h5>Up to 150 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
             </div>
+          </div>
+        </div>
 
-            <!-- 24/7 Support -->
-            <div class="col-12 col-md-6 bg-secondary text-light p-4 d-flex flex-column justify-content-center">
-              <div class="text-center mb-2">
-                <img src="{{asset('images/customer.png')}}" alt="Support Icon" width="80" height="80">
-              </div>
-              <h3 class="text-center fw-bold">24/7 Customer Support</h3>
-              <p class="text-center px-3" style="font-size: 14px">
-                Our dedicated support team is available 24/7 to assist you. Whether you need 
-                troubleshooting, installation help, or billing assistance, we’re just one call away.
-              </p>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱1999</h2>
+              <h5>Up to 200 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- 🌐 Internet Plans Section -->
-    <div id="plans" class="container-fluid py-5" style="background: #0d0d0d; color: #fff;">
-      <div class="container text-center">
-        <h1 class="mb-4 fw-bold"><span class="highlight">Our</span> Internet Plans</h1>
-        <p class="mb-5" style="max-width: 600px; margin: 0 auto;">
-          Fast, reliable, and affordable — choose the perfect plan for your home or business with
-          <span class="highlight">AJC Internet</span>. All plans include access to <b>AJCFlix</b> — unlimited movies, TV channels, karaoke, and entertainment!
-        </p>
-
-        <div class="row g-4">
-          <!-- Plan 899 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <div>
-                  <h2 class="fw-bold text-warning">₱899</h2>
-                  <h5>Up to 50 Mbps</h5>
-                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
-                    <li>✅ Unlimited Internet</li>
-                    <li>🎬 AJCFlix Access</li>
-                    <li>📺 Unlimited Movies & TV Channels</li>
-                    <li>🎤 Karaoke & Entertainment</li>
-                  </ul>
-                </div>
-                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Plan 1199 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <div>
-                  <h2 class="fw-bold text-warning">₱1199</h2>
-                  <h5>Up to 100 Mbps</h5>
-                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
-                    <li>✅ Unlimited Internet</li>
-                    <li>🎬 AJCFlix Access</li>
-                    <li>📺 Unlimited Movies & TV Channels</li>
-                    <li>🎤 Karaoke & Entertainment</li>
-                  </ul>
-                </div>
-                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Plan 1499 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <div>
-                  <h2 class="fw-bold text-warning">₱1499</h2>
-                  <h5>Up to 150 Mbps</h5>
-                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
-                    <li>✅ Unlimited Internet</li>
-                    <li>🎬 AJCFlix Access</li>
-                    <li>📺 Unlimited Movies & TV Channels</li>
-                    <li>🎤 Karaoke & Entertainment</li>
-                  </ul>
-                </div>
-                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Plan 1999 -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
-              <div class="card-body d-flex flex-column justify-content-between">
-                <div>
-                  <h2 class="fw-bold text-warning">₱1999</h2>
-                  <h5>Up to 200 Mbps</h5>
-                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
-                    <li>✅ Unlimited Internet</li>
-                    <li>🎬 AJCFlix Access</li>
-                    <li>📺 Unlimited Movies & TV Channels</li>
-                    <li>🎤 Karaoke & Entertainment</li>
-                  </ul>
-                </div>
-                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-
+  </div>
 
   <script>
-  // Collapse navbar after clicking a link (for mobile)
-  document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-    const navbarCollapse = document.querySelector('.navbar-collapse');
-
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-        if (bsCollapse) {
-          bsCollapse.hide(); // collapse it
-        }
+    // Collapse navbar after click (mobile)
+    document.addEventListener('DOMContentLoaded', function () {
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+          if (bsCollapse) bsCollapse.hide();
+        });
       });
     });
-  });
-</script>
+  </script>
 
 </body>
 </html>
