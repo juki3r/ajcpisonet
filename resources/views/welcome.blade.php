@@ -322,58 +322,82 @@
     </div>
   </div>
 
-  <!-- 📞 About Section -->
 
+    <!--  About Section -->
     <div id="about" class="container-fluid p-0 h-100">
       <div class="row h-100">
+        <!-- Left side image -->
         <div class="col-12 col-md-4 p-0 m-0 h-100"
             style="
               background-image: url('/images/choose.jpg');
-              background-size: stretch;
+              background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
               position: relative;
             ">
-            <div class="overlay"></div>
-            <div class="choose_text">
+          <div class="overlay"></div>
+          <div class="choose_text text-center">
             <h1><span class="highlight">Why choose</span> AJC ?</h1>
           </div>
         </div>
+
+        <!-- Right side features -->
         <div class="col-12 col-md-8 p-0 m-0">
           <div class="row h-50">
-            <div class="col-12 col-md-6 bg-success d-flex  flex-column text-light p-4">
-              <h2 class="m-0 p-0">
-                <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
-                Redundant Internet</h2>
-                <p class="px-4 mt-0" style="font-size: 14px">
-                  Multiple internet connections or backup links to ensure continuous connectivity in case 
-                  one provider or connection fails. It is a reliability strategy often used by businesses, organizations, 
-                  and ISPs to prevent downtime and maintain seamless online operations.
-                </p>
+            <!-- Redundant Internet -->
+            <div class="col-12 col-md-6 bg-success text-light p-4 d-flex flex-column justify-content-center">
+              <div class="text-center mb-2">
+                <img src="{{asset('images/isp.png')}}" alt="ISP Icon" width="80" height="80">
+              </div>
+              <h3 class="text-center fw-bold">Redundant Internet</h3>
+              <p class="text-center px-3" style="font-size: 14px">
+                Multiple internet connections or backup links ensure continuous connectivity in case 
+                one provider fails. AJC guarantees uninterrupted service and reliability for every user.
+              </p>
             </div>
-            <div class="col-12 col-md-6 bg-warning p-3">
-              <h2>
-                <img src="{{asset('images/back-up.png')}}" alt="" width="100" height="100">
-                Back-up Power</h2>
+
+            <!-- Backup Power -->
+            <div class="col-12 col-md-6 bg-warning text-dark p-4 d-flex flex-column justify-content-center">
+              <div class="text-center mb-2">
+                <img src="{{asset('images/back-up.png')}}" alt="Backup Icon" width="80" height="80">
+              </div>
+              <h3 class="text-center fw-bold">Back-up Power</h3>
+              <p class="text-center px-3" style="font-size: 14px">
+                Our systems are equipped with backup batteries and generators to keep your 
+                connection stable even during power outages. We ensure you stay online no matter what.
+              </p>
             </div>
           </div>
+
           <div class="row h-50">
-            <div class="col-12 col-md-6 bg-primary p-3">
-              <h2>
-                <img src="{{asset('images/affordable.png')}}" alt="" width="100" height="100">
-                Affordable Plans
-              </h2>
+            <!-- Affordable Plans -->
+            <div class="col-12 col-md-6 bg-primary text-light p-4 d-flex flex-column justify-content-center">
+              <div class="text-center mb-2">
+                <img src="{{asset('images/affordable.png')}}" alt="Affordable Icon" width="80" height="80">
+              </div>
+              <h3 class="text-center fw-bold">Affordable Plans</h3>
+              <p class="text-center px-3" style="font-size: 14px">
+                Enjoy high-speed internet at a price that fits your budget. We provide flexible 
+                plans for homes, businesses, and gamers—offering great value without compromising quality.
+              </p>
             </div>
-            <div class="col-12 col-md-6 bg-secondary p-3">
-              <h2>
-                <img src="{{asset('images/customer.png')}}" alt="" width="100" height="100">
-                24/7 Customer Support
-              </h2>
+
+            <!-- 24/7 Support -->
+            <div class="col-12 col-md-6 bg-secondary text-light p-4 d-flex flex-column justify-content-center">
+              <div class="text-center mb-2">
+                <img src="{{asset('images/customer.png')}}" alt="Support Icon" width="80" height="80">
+              </div>
+              <h3 class="text-center fw-bold">24/7 Customer Support</h3>
+              <p class="text-center px-3" style="font-size: 14px">
+                Our dedicated support team is available 24/7 to assist you. Whether you need 
+                troubleshooting, installation help, or billing assistance, we’re just one call away.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+
 
 
   <script>
