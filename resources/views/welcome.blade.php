@@ -542,11 +542,15 @@
     });
 
     document.querySelectorAll('.apply-btn').forEach(button => {
-    button.addEventListener('click', function() {
-      const plan = this.closest('.card-body').querySelector('.plan-title').textContent;
-      document.getElementById('selectedPlan').textContent = plan;
+      button.addEventListener('click', function() {
+        // Find the nearest card and get the plan text
+        const plan = this.closest('.card').querySelector('.plan-title').textContent.trim();
+
+        // Update both modal display and hidden input
+        document.getElementById('selectedPlan').textContent = plan;
+        document.getElementById('hiddenPlan').value = plan;
+      });
     });
-  });
 
   document.addEventListener("DOMContentLoaded", () => {
   const applyButtons = document.querySelectorAll(".apply-btn");
