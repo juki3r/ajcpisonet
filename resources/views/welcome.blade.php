@@ -593,7 +593,7 @@
       }
 
       if (response.ok) {
-        alert("✅ Application submitted successfully!");
+        alert("✅ Application submitted successfully!  Please wait for a call from our installer. ");
         form.reset();
         modal.hide();
       } else if (response.status === 422 && result.errors) {
