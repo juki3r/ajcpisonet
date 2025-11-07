@@ -7,7 +7,10 @@
   <title>AJC Pisonet</title>
   <link rel="shortcut icon" href="{{ asset('ajclogo.jpg') }}" type="image/x-icon" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
@@ -153,17 +156,6 @@
       scroll-behavior: smooth;
     }
 
-    /* Choose text centered */
-    .choose_text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      color: #fff;
-      z-index: 2;
-    }
-
     /* Contact Section */
     #contact {
       background: #111;
@@ -221,6 +213,10 @@
         height: 70vh !important;
       }
 
+      .carousel-image {
+        object-fit: cover !important;
+      }
+
       .carousel-caption-left-bottom {
         bottom: 40px;
         left: 20px;
@@ -228,7 +224,11 @@
         max-width: 90%;
       }
 
-      /* Fix overlapping and spacing */
+      #about .col-md-4,
+      #about .col-md-8 {
+        height: auto !important;
+      }
+
       #about .row {
         flex-direction: column;
       }
@@ -238,8 +238,8 @@
         top: 0;
         left: 0;
         transform: none;
-        padding: 40px 0 20px;
-        background: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding: 20px 0;
       }
 
       #plans .card {
@@ -263,9 +263,20 @@
   <nav class="navbar navbar-expand-lg px-4">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold" href="#home">
-        <img src="{{ asset('ajclogo.jpg') }}" alt="Logo" width="60" height="60" class="me-2 rounded-circle" />
+        <img
+          src="{{ asset('ajclogo.jpg') }}"
+          alt="Logo"
+          width="60"
+          height="60"
+          class="me-2 rounded-circle"
+        />
       </a>
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
         <span></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -279,7 +290,7 @@
     </div>
   </nav>
 
-  <!-- 🖼️ Carousel -->
+  <!-- 🖼️ Carousel (Home Section) -->
   <div id="home" class="container-fluid p-0">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -289,8 +300,9 @@
           <div class="carousel-caption-left-bottom">
             <h1 class="text-warning">AJC Internet</h1>
             <p>
-              <span class="highlight">Internet service provider</span> committed to delivering fast,
-              stable, and affordable connectivity for everyone.
+              <span class="highlight">Internet service provider</span> committed to
+              delivering fast, stable, and affordable connectivity for everyone.
+              We aim to provide nonstop internet — keeping homes and businesses connected without interruption.
             </p>
           </div>
         </div>
@@ -299,7 +311,7 @@
           <div class="overlay"></div>
           <div class="carousel-caption-left-bottom">
             <h1>Smart <span class="highlight">Solutions</span></h1>
-            <p>We build reliable IoT systems, computers, CCTV, and more.</p>
+            <p>We build reliable, efficient systems — IoT, computer assembly, CCTV, software, and repair jobs.</p>
           </div>
         </div>
       </div>
@@ -307,36 +319,42 @@
   </div>
 
   <!-- 🧭 About Section -->
-  <div id="about" class="container-fluid p-0">
-    <div class="row g-0">
-      <div class="col-12 col-md-4 position-relative" style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center; min-height: 400px;">
+  <div id="about" class="container-fluid p-0 h-100">
+    <div class="row h-100">
+      <!-- Left side -->
+      <div class="col-12 col-md-4 p-0 m-0"
+        style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center;">
         <div class="overlay"></div>
-        <div class="choose_text">
+        <div class="choose_text text-center">
           <h1><span class="highlight">Why choose</span> AJC?</h1>
         </div>
       </div>
 
-      <div class="col-12 col-md-8">
+      <!-- Right side -->
+      <div class="col-12 col-md-8 p-0 m-0">
         <div class="row g-0">
           <div class="col-12 col-md-6 bg-success text-light p-4 text-center">
             <img src="{{asset('images/isp.png')}}" alt="ISP" width="70">
             <h3 class="fw-bold mt-2">Redundant Internet</h3>
             <p>Multiple internet connections ensure continuous connectivity — AJC guarantees uninterrupted service and reliability.</p>
           </div>
+
           <div class="col-12 col-md-6 bg-warning text-dark p-4 text-center">
             <img src="{{asset('images/back-up.png')}}" alt="Backup" width="70">
             <h3 class="fw-bold mt-2">Back-up Power</h3>
-            <p>Backup batteries and generators keep your connection stable during power outages.</p>
+            <p>Backup batteries and generators keep your connection stable during power outages — stay online always.</p>
           </div>
+
           <div class="col-12 col-md-6 bg-primary text-light p-4 text-center">
             <img src="{{asset('images/affordable.png')}}" alt="Affordable" width="70">
             <h3 class="fw-bold mt-2">Affordable Plans</h3>
-            <p>High-speed internet that fits your budget — perfect for homes and businesses.</p>
+            <p>High-speed internet that fits your budget — flexible options for homes, gamers, and businesses.</p>
           </div>
+
           <div class="col-12 col-md-6 bg-secondary text-light p-4 text-center">
             <img src="{{asset('images/customer.png')}}" alt="Support" width="70">
             <h3 class="fw-bold mt-2">24/7 Support</h3>
-            <p>Our support team is always available for setup or troubleshooting.</p>
+            <p>Our support team is always available for setup, billing, or troubleshooting assistance.</p>
           </div>
         </div>
       </div>
@@ -344,12 +362,16 @@
   </div>
 
   <!-- 🌐 Internet Plans -->
-  <div id="plans" class="container-fluid py-5" style="background:#0d0d0d; color:#fff;">
+  <div id="plans" class="container-fluid py-5" style="background: #0d0d0d; color: #fff;">
     <div class="container text-center">
       <h1 class="mb-4 fw-bold"><span class="highlight">Our</span> Internet Plans</h1>
-      <p class="mb-5" style="max-width:600px;margin:0 auto;">Choose the perfect plan with <span class="highlight">AJC Internet</span>. All include <b>AJCFlix</b> — unlimited movies, TV, karaoke, and entertainment!</p>
+      <p class="mb-5" style="max-width: 600px; margin: 0 auto;">
+        Fast, reliable, and affordable — choose the perfect plan for your home or business with
+        <span class="highlight">AJC Internet</span>. All plans include <b>AJCFlix</b>: unlimited movies, TV channels, karaoke, and entertainment!
+      </p>
+
       <div class="row g-4">
-        <!-- Plan 899 -->
+        <!-- Plan cards -->
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
@@ -366,7 +388,53 @@
           </div>
         </div>
 
-        <!-- Repeat for 1199 / 1499 / 1999 as in your code -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱1199</h2>
+              <h5>Up to 100 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱1499</h2>
+              <h5>Up to 150 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
+            <div class="card-body">
+              <h2 class="fw-bold text-warning">₱1999</h2>
+              <h5>Up to 200 Mbps</h5>
+              <ul class="list-unstyled mt-3 small">
+                <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
+              </ul>
+              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -384,5 +452,6 @@
       });
     });
   </script>
+
 </body>
 </html>
