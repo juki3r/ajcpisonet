@@ -352,6 +352,18 @@
                 Back-up Power</h2>
             </div>
           </div>
+          <div class="row">
+            <div class="col-12 col-md-6 bg-success p-2">
+              <h2>
+                <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
+                Redundant Internet</h2>
+            </div>
+            <div class="col-12 col-md-6 bg-warning p-2">
+              <h2>
+                <img src="{{asset('images/back-up.png')}}" alt="" width="100" height="100">
+                Back-up Power</h2>
+            </div>
+          </div>
         </div>
       </div>
     </div>
