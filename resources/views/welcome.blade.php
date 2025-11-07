@@ -261,6 +261,7 @@
         transform: none;
         text-align: center;
         padding: 20px 0;
+        margin-top: 50px;
       }
 
       #plans .card {
