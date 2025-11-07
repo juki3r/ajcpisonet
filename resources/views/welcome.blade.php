@@ -254,6 +254,9 @@
         padding-left: 1rem !important;
         padding-right: 1rem !important;
       }
+      .choose{
+        height: 100%;
+      }
     }
   </style>
 </head>
@@ -322,7 +325,7 @@
   <div id="about" class="container-fluid p-0 h-100">
     <div class="row h-100">
       <!-- Left side -->
-      <div class="col-12 col-md-4 p-0 m-0"
+      <div class="col-12 col-md-4 p-0 m-0 choose"
         style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center;">
         {{-- <div class="overlay"></div> --}}
         <div class="choose_text text-center">
