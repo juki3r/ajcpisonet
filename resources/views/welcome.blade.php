@@ -482,7 +482,7 @@
 
 
 
-  <!-- Modal -->
+<!-- Modal -->
 <div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content text-dark">
@@ -490,31 +490,37 @@
         <h5 class="modal-title" id="applyModalLabel">Apply for Plan</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
       <div class="modal-body">
         <p>You are applying for <strong id="selectedPlan"></strong>.</p>
 
-        <form>
+        <form id="applyForm">
+          @csrf
+          <input type="hidden" name="plan" id="planInput">
+
           <div class="mb-3">
             <label class="form-label">Full Name</label>
-            <input type="text" class="form-control" placeholder="Enter your full name">
+            <input type="text" name="fullname" class="form-control" placeholder="Enter your full name" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Contact Number</label>
-            <input type="text" class="form-control" placeholder="Enter your contact number">
+            <input type="text" name="contact_number" class="form-control" placeholder="Enter your contact number" required>
           </div>
           <div class="mb-3">
             <label class="form-label">Address</label>
-            <input type="text" class="form-control" placeholder="Enter your address">
+            <input type="text" name="address" class="form-control" placeholder="Enter your address" required>
           </div>
         </form>
       </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-danger">Submit Application</button>
+        <button type="button" id="submitApplication" class="btn btn-danger">Submit Application</button>
       </div>
     </div>
   </div>
 </div>
+
   <script>
     // Collapse navbar after click (mobile)
     document.addEventListener('DOMContentLoaded', function () {
@@ -534,6 +540,50 @@
       document.getElementById('selectedPlan').textContent = plan;
     });
   });
+
+  document.addEventListener("DOMContentLoaded", () => {
+  const applyButtons = document.querySelectorAll(".apply-btn");
+  const selectedPlan = document.getElementById("selectedPlan");
+  const planInput = document.getElementById("planInput");
+  const modal = new bootstrap.Modal(document.getElementById("applyModal"));
+  const submitBtn = document.getElementById("submitApplication");
+  const form = document.getElementById("applyForm");
+
+  // When clicking "Apply Now"
+  applyButtons.forEach(btn => {
+    btn.addEventListener("click", e => {
+      e.preventDefault();
+      const plan = btn.getAttribute("data-plan");
+      selectedPlan.textContent = plan;
+      planInput.value = plan;
+      modal.show();
+    });
+  });
+
+  // Submit form
+  submitBtn.addEventListener("click", async () => {
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch("/apply", {
+        method: "POST",
+        headers: { "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value },
+        body: formData,
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        alert("✅ Application submitted successfully!");
+        form.reset();
+        modal.hide();
+      } else {
+        alert("⚠️ " + (result.message || "Something went wrong"));
+      }
+    } catch (error) {
+      alert("❌ Error submitting application.");
+    }
+  });
+});
   </script>
 
 </body>
