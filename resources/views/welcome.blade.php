@@ -403,6 +403,9 @@
       <p class="mb-5" style="max-width: 600px; margin: 0 auto;">
         Fast, reliable, and affordable — choose the perfect plan for your home or business with
         <span class="highlight">AJC Internet</span>. All plans include <b>AJCFlix</b>: unlimited movies, TV channels, karaoke, and entertainment!
+        <br>
+        <br>
+        <span class="text-warning"> Note: Installation fee is 2,500 pesos.</span>
       </p>
 
       <div class="row g-4">
