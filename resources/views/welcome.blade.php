@@ -23,17 +23,17 @@
     }
 
     .carousel-image {
-      object-fit: stretch;
+      object-fit: cover;
     }
 
-    /* Overlay dim */
+    /* Overlay */
     .overlay {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.6);
       z-index: 1;
     }
 
@@ -54,14 +54,14 @@
     .choose_text {
       position: absolute;
       top: 50%;
-      left: 10%;
+      left: 50%;
       transform: translate(-50%, -50%);
       color: #fff;
-      z-index: 1;
+      text-align: center;
+      z-index: 2;
       opacity: 0;
       animation: fadeUp 1.2s ease forwards;
     }
-
 
     @keyframes fadeUp {
       0% {
@@ -78,6 +78,7 @@
       color: #e50914;
     }
 
+    /* Buttons */
     .btn {
       border-radius: 50px;
       padding: 10px 25px;
@@ -88,7 +89,7 @@
       transform: scale(1.05);
     }
 
-    /* Transparent navbar */
+    /* Navbar */
     .navbar {
       position: fixed;
       top: 0;
@@ -108,7 +109,7 @@
       color: #e50914 !important;
     }
 
-    /* Hamburger custom */
+    /* Hamburger menu */
     .navbar-toggler {
       border: none;
       outline: none !important;
@@ -170,7 +171,6 @@
       background: #ff4c4c;
     }
 
-    /* Smooth scroll */
     html {
       scroll-behavior: smooth;
     }
@@ -216,33 +216,75 @@
       transform: scale(1.05);
     }
 
+    /* ABOUT SECTION */
+    #about {
+      background: #000;
+      color: #fff;
+    }
+
+    #about .left-section {
+      background-image: url('{{ asset('images/choose.jpg') }}');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    #about .right-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #about .info-box {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      color: #fff;
+    }
+
+    #about .info-box h2 {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    #about .info-box img {
+      width: 60px;
+      height: 60px;
+    }
+
+    #about .info-box p {
+      font-size: 14px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
     @media (max-width: 768px) {
-      .navbar {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-      }
-
-      .carousel-caption-left-bottom {
-        bottom: 120px;
-        left: 20px;
-        max-width: 90%;
-      }
-
-      .carousel-caption-left-bottom h1 {
+      .choose_text h1 {
         font-size: 1.8rem;
       }
 
-      .carousel-caption-left-bottom p {
-        font-size: 14px;
+      #about .info-box {
+        text-align: center;
+        align-items: center;
+      }
+
+      #about .info-box h2 {
+        justify-content: center;
       }
     }
 
-    body,
-    html {
+    body, html {
       margin: 0;
       padding: 0;
       overflow-x: hidden;
-      height: 100vh;
     }
   </style>
 </head>
@@ -291,30 +333,7 @@
             <p>
               <span class="highlight">Internet service provider</span> committed to
               delivering fast, stable, and affordable connectivity for everyone.
-              We aim to provide a nonstop internet experience — keeping homes,
-              businesses, and communities connected without interruption.
-              Experience the power of reliable internet with our affordable internet plans.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="{{ asset('images/carousel2.jpg') }}" class="d-block w-100 carousel-image" alt="Slide 2" />
-          <div class="overlay"></div>
-          <div class="carousel-caption-left-bottom">
-            <h1>Smart <span class="highlight">Solutions</span></h1>
-            <p>We build reliable, efficient systems that make life simpler and better.
-              Internet of Things, Computer assembly, CCTV, Software and Programming, and even repair jobs.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="{{ asset('images/carousel3.jpg') }}" class="d-block w-100 carousel-image" alt="Slide 3" />
-          <div class="overlay"></div>
-          <div class="carousel-caption-left-bottom">
-            <h1><span class="highlight">Innovation</span> Meets Simplicity</h1>
-            <p>Explore our latest projects and discover what makes us different.
-              Island internet from wireless to fiber installation with fast internet speed
-              and a secure transmission with unterupted surfing to the internet.
+              Experience nonstop internet — keeping homes, businesses, and communities connected without interruption.
             </p>
           </div>
         </div>
@@ -323,75 +342,63 @@
   </div>
 
   <!-- 📞 About Section -->
-
-    <div id="about" class="container-fluid p-0 h-100">
-      <div class="row h-100">
-        <div class="col-12 col-md-4 p-0 m-0 h-100"
-            style="
-              background-image: url('/images/choose.jpg');
-              background-size: stretch;
-              background-position: center;
-              background-repeat: no-repeat;
-              position: relative;
-            ">
-            <div class="overlay"></div>
-            <div class="choose_text">
-            <h1><span class="highlight">Why choose</span> AJC ?</h1>
-          </div>
+  <div id="about" class="container-fluid p-0">
+    <div class="row g-0">
+      <div class="col-12 col-md-4 left-section">
+        <div class="overlay"></div>
+        <div class="choose_text">
+          <h1><span class="highlight">Why Choose</span> AJC?</h1>
         </div>
-        <div class="col-12 col-md-8 p-0 m-0">
-          <div class="row h-50">
-            <div class="col-12 col-md-6 bg-success d-flex  flex-column text-light p-4">
-              <h2 class="m-0 p-0">
-                <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
-                Redundant Internet</h2>
-                <p class="px-4 mt-0" style="font-size: 14px">
-                  Multiple internet connections or backup links to ensure continuous connectivity in case 
-                  one provider or connection fails. It is a reliability strategy often used by businesses, organizations, 
-                  and ISPs to prevent downtime and maintain seamless online operations.
-                </p>
-            </div>
-            <div class="col-12 col-md-6 bg-warning p-3">
-              <h2>
-                <img src="{{asset('images/back-up.png')}}" alt="" width="100" height="100">
-                Back-up Power</h2>
-            </div>
+      </div>
+
+      <div class="col-12 col-md-8 right-section">
+        <div class="row g-0 h-100">
+          <div class="col-12 col-md-6 bg-success info-box">
+            <h2><img src="{{asset('images/isp.png')}}" alt=""> Redundant Internet</h2>
+            <p>
+              Multiple internet connections or backup links ensure continuous connectivity
+              in case one provider or connection fails. It’s a key reliability strategy that
+              minimizes downtime and keeps your business running smoothly.
+            </p>
           </div>
-          <div class="row h-50">
-            <div class="col-12 col-md-6 bg-primary p-3">
-              <h2>
-                <img src="{{asset('images/affordable.png')}}" alt="" width="100" height="100">
-                Affordable Plans
-              </h2>
-            </div>
-            <div class="col-12 col-md-6 bg-secondary p-3">
-              <h2>
-                <img src="{{asset('images/customer.png')}}" alt="" width="100" height="100">
-                24/7 Customer Support
-              </h2>
-            </div>
+          <div class="col-12 col-md-6 bg-warning info-box text-dark">
+            <h2><img src="{{asset('images/back-up.png')}}" alt=""> Back-up Power</h2>
+            <p>
+              Our systems stay online even during power interruptions thanks to
+              high-capacity battery and generator backup systems for uninterrupted service.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 bg-primary info-box">
+            <h2><img src="{{asset('images/affordable.png')}}" alt=""> Affordable Plans</h2>
+            <p>
+              We offer flexible and affordable internet plans tailored to your needs —
+              providing great value without compromising speed or reliability.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 bg-secondary info-box">
+            <h2><img src="{{asset('images/customer.png')}}" alt=""> 24/7 Customer Support</h2>
+            <p>
+              Our support team is always available to assist you anytime,
+              ensuring fast response and resolution whenever you need help.
+            </p>
           </div>
         </div>
       </div>
     </div>
-
+  </div>
 
   <script>
-  // Collapse navbar after clicking a link (for mobile)
-  document.addEventListener('DOMContentLoaded', function () {
-    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-    const navbarCollapse = document.querySelector('.navbar-collapse');
-
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
-        if (bsCollapse) {
-          bsCollapse.hide(); // collapse it
-        }
+    // Collapse navbar after clicking a link (for mobile)
+    document.addEventListener('DOMContentLoaded', function () {
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+          if (bsCollapse) bsCollapse.hide();
+        });
       });
     });
-  });
-</script>
-
+  </script>
 </body>
 </html>
