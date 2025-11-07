@@ -571,7 +571,6 @@
       });
     });
 
-  // 🟩 Handle Submit
   submitBtn.addEventListener("click", async () => {
     const formData = new FormData(form);
 
@@ -584,28 +583,27 @@
         body: formData,
       });
 
+      // Try to parse JSON (may throw if server error)
       const result = await response.json();
 
       if (response.ok) {
         alert("✅ Application submitted successfully!");
         form.reset();
         modal.hide();
-      } 
-      // 🟥 Handle validation errors (Laravel 422)
-      else if (response.status === 422) {
-        let errors = result.errors;
+      } else if (response.status === 422) {
+        // Laravel validation error
+        const errors = result.errors;
         let messages = Object.values(errors).flat().join("\n");
         alert("⚠️ Validation Error:\n" + messages);
-      } 
-      else {
+      } else {
         alert("⚠️ " + (result.message || "Something went wrong"));
       }
-
     } catch (error) {
-      console.error(error);
+      console.error("❌ Fetch error:", error);
       alert("❌ Error submitting application.");
     }
   });
+
 
 });
   </script>
