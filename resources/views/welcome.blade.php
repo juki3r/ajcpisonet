@@ -342,7 +342,10 @@
         <div class="col-12 col-md-8 p-0 m-0">
           <div class="row">
             <div class="col-12 col-md-6 bg-success">
-              <h2>Redundant Internet</h2>
+
+              <h2>
+                <img src="{{asset('redundant.png')}}" alt="" width="40" height="40">
+                Redundant Internet</h2>
             </div>
             <div class="col-12 col-md-6 bg-warning">
               <h2>Back-up Power</h2>
