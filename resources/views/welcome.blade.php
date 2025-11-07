@@ -510,12 +510,13 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content text-dark">
       <div class="modal-header">
-        <h5 class="modal-title" id="applyModalLabel">Apply for Plan</h5>
+        <h5 class="modal-title" id="applyModalLabel">Apply for Internet Subscription</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
       <div class="modal-body">
         <p>You are applying for <strong id="selectedPlan"></strong>.</p>
+        <p>Note: <span class="text-danger">Installation fee is 2,500 pesos.</span></p>
 
         <form id="applyForm">
           @csrf
