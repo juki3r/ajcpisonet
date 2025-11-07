@@ -590,14 +590,23 @@
         alert("✅ Application submitted successfully!");
         form.reset();
         modal.hide();
-      } else {
+      } 
+      // 🟥 Handle validation errors (Laravel 422)
+      else if (response.status === 422) {
+        let errors = result.errors;
+        let messages = Object.values(errors).flat().join("\n");
+        alert("⚠️ Validation Error:\n" + messages);
+      } 
+      else {
         alert("⚠️ " + (result.message || "Something went wrong"));
       }
+
     } catch (error) {
       console.error(error);
-      alert("⚠️ " + (result.message || "Something went wrong"));
+      alert("❌ Error submitting application.");
     }
   });
+
 });
   </script>
 
