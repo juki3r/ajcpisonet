@@ -203,6 +203,10 @@
       padding: 0;
       overflow-x: hidden;
     }
+    .choose {
+      height: 400px;
+      position: relative;
+    }
 
     /* === MOBILE FIXES === */
     @media (max-width: 768px) {
