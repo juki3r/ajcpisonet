@@ -255,7 +255,7 @@
         padding-right: 1rem !important;
       }
       .choose{
-        height: 100%;
+        height: 100% !important;
       }
     }
   </style>
