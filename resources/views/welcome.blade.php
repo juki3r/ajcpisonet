@@ -579,30 +579,36 @@
         method: "POST",
         headers: {
           "X-CSRF-TOKEN": form.querySelector('input[name="_token"]').value,
+          "Accept": "application/json"
         },
         body: formData,
       });
 
-      // Try to parse JSON (may throw if server error)
-      const result = await response.json();
+      const text = await response.text();
+      let result = {};
+      try {
+        result = JSON.parse(text);
+      } catch (e) {
+        console.log("Non-JSON response:", text);
+      }
 
       if (response.ok) {
         alert("✅ Application submitted successfully!");
         form.reset();
         modal.hide();
-      } else if (response.status === 422) {
-        // Laravel validation error
+      } else if (response.status === 422 && result.errors) {
         const errors = result.errors;
         let messages = Object.values(errors).flat().join("\n");
         alert("⚠️ Validation Error:\n" + messages);
       } else {
-        alert("⚠️ " + (result.message || "Something went wrong"));
+        alert("⚠️ Something went wrong.\n" + (result.message || text));
       }
     } catch (error) {
       console.error("❌ Fetch error:", error);
       alert("❌ Error submitting application.");
     }
   });
+
 
 
 });
