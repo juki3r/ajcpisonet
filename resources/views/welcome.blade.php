@@ -362,7 +362,8 @@
             <div class="col-12 col-md-6 bg-secondary p-2">
               <h2>
                 <img src="{{asset('images/customer.png')}}" alt="" width="100" height="100">
-                Back-up Power</h2>
+                24/7 Customer Support
+              </h2>
             </div>
           </div>
         </div>
