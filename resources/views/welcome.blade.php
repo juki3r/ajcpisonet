@@ -553,23 +553,23 @@
     });
 
   document.addEventListener("DOMContentLoaded", () => {
-  const applyButtons = document.querySelectorAll(".apply-btn");
-  const selectedPlan = document.getElementById("selectedPlan");
-  const planInput = document.getElementById("planInput");
-  const modal = new bootstrap.Modal(document.getElementById("applyModal"));
-  const submitBtn = document.getElementById("submitApplication");
-  const form = document.getElementById("applyForm");
+    const applyButtons = document.querySelectorAll(".apply-btn");
+    const selectedPlan = document.getElementById("selectedPlan");
+    const planInput = document.getElementById("planInput");
+    const modal = new bootstrap.Modal(document.getElementById("applyModal"));
+    const submitBtn = document.getElementById("submitApplication");
+    const form = document.getElementById("applyForm");
 
-  // 🟥 When clicking "Apply Now"
-  applyButtons.forEach(btn => {
-    btn.addEventListener("click", e => {
-      e.preventDefault();
-      const plan = btn.getAttribute("data-plan");
-      selectedPlan.textContent = plan;
-      planInput.value = plan;
-      modal.show();
+    // 🟥 When clicking "Apply Now"
+    applyButtons.forEach(btn => {
+      btn.addEventListener("click", e => {
+        e.preventDefault();
+        const plan = btn.getAttribute("data-plan");
+        selectedPlan.textContent = plan;
+        planInput.value = plan;
+        modal.show();
+      });
     });
-  });
 
   // 🟩 Handle Submit
   submitBtn.addEventListener("click", async () => {
@@ -595,7 +595,7 @@
       }
     } catch (error) {
       console.error(error);
-      alert("❌ Error submitting application.");
+      alert("⚠️ " + (result.message || "Something went wrong"));
     }
   });
 });
