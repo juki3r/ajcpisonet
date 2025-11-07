@@ -344,7 +344,7 @@
             <div class="col-12 col-md-6 bg-success">
 
               <h2>
-                <img src="{{asset('images/redundant.png')}}" alt="" width="100" height="100">
+                <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
                 Redundant Internet</h2>
             </div>
             <div class="col-12 col-md-6 bg-warning">
