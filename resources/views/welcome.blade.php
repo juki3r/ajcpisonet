@@ -347,7 +347,7 @@
       <!-- Left side -->
       <div class="col-12 col-md-4 p-0 m-0 choose"
         style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center;">
-        {{-- <div class="overlay"></div> --}}
+        <div class="overlay"></div>
         <div class="choose_text text-center">
           <h1 class="text-warning"><span class="text-info">Why choose</span> AJC?</h1>
         </div>
