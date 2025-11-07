@@ -342,10 +342,10 @@
         <div class="col-12 col-md-8 p-0 m-0">
           <div class="row h-50">
             <div class="col-12 col-md-6 bg-success d-flex  flex-column text-light p-4">
-              <h2>
+              <h2 class="m-0 p-0">
                 <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
                 Redundant Internet</h2>
-                <p class="p-4" style="font-size: 12px">
+                <p class="p-4 mt-0" style="font-size: 14px">
                   Multiple internet connections or backup links to ensure continuous connectivity in case 
                   one provider or connection fails. It is a reliability strategy often used by businesses, organizations, 
                   and ISPs to prevent downtime and maintain seamless online operations.
