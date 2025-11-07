@@ -217,6 +217,15 @@
       z-index: 2;
     }
 
+    .choose_text h1 {
+      color: #fff;
+      text-decoration: underline;
+      text-underline-offset: 6px; /* adds spacing between text and line */
+      text-decoration-thickness: 2px; /* makes line thicker */
+      text-decoration-color: #ffc107; /* (optional) custom color for underline */
+    }
+
+
     .choose > .overlay { position: absolute; inset: 0; z-index: 1; }
 
     /* === MOBILE FIXES === */
@@ -352,7 +361,7 @@
         style="background-image: url('/images/choose.jpg'); background-size: cover; background-position: center;">
         <div class="overlay"></div>
         <div class="choose_text text-center">
-          <h1 class="text-warning mt-5"><span class="text-light text-underlined">Why choose</span> AJC?</h1>
+          <h1 class="mt-5">Why choose AJC?</h1>
         </div>
       </div>
 
