@@ -13,7 +13,7 @@ class CustomerController extends Controller
             'plan' => 'required|string',
             'fullname' => 'required|string|max:255',
             'address' => 'required|string|max:255',
-            'contact_number' => 'required|string|max:20',
+            'contact_number' => 'required|string|max:11|unique:customers,contact_number',
         ]);
 
         Customer::create($request->all());
