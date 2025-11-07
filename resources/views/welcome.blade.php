@@ -372,7 +372,7 @@
 
 
   <!-- 📞 Contact Section -->
-  <section id="contact" class="text-center">
+  {{-- <section id="contact" class="text-center">
     <div class="container">
       <h2>Contact Us</h2>
       <p class="mb-5">Have questions or need help? Reach out — we’d love to hear from you!</p>
@@ -394,7 +394,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <script>
   // Collapse navbar after clicking a link (for mobile)
