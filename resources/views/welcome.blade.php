@@ -319,7 +319,7 @@
           <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          {{-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> --}}
         </ul>
       </div>
     </div>
