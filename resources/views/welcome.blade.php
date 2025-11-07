@@ -340,10 +340,10 @@
           </div>
         </div>
         <div class="col-12">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 bg-success">
             <h2>Redundant Internet</h2>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 bg-warning">
             <h2>Back-up Power</h2>
           </div>
         </div>
