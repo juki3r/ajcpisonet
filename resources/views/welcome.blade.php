@@ -436,7 +436,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱1199</h2>
+              <h2 class="fw-bold text-warning">₱1,199</h2>
               <h5>Up to 100 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
@@ -444,7 +444,13 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
               </ul>
-              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              <button 
+                class="btn btn-danger mt-3 apply-btn" 
+                data-bs-toggle="modal" 
+                data-bs-target="#applyModal"
+                data-plan="₱1199 - Up to 100 Mbps">
+                Apply Now
+              </button>
             </div>
           </div>
         </div>
@@ -452,7 +458,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱1499</h2>
+              <h2 class="fw-bold text-warning">₱1,499</h2>
               <h5>Up to 150 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
@@ -460,7 +466,13 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
               </ul>
-              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              <button 
+                class="btn btn-danger mt-3 apply-btn" 
+                data-bs-toggle="modal" 
+                data-bs-target="#applyModal"
+                data-plan="₱1499 - Up to 150 Mbps">
+                Apply Now
+              </button>
             </div>
           </div>
         </div>
@@ -468,7 +480,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱1999</h2>
+              <h2 class="fw-bold text-warning">₱1,999</h2>
               <h5>Up to 200 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
@@ -476,7 +488,13 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
               </ul>
-              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              <button 
+                class="btn btn-danger mt-3 apply-btn" 
+                data-bs-toggle="modal" 
+                data-bs-target="#applyModal"
+                data-plan="₱1999 - Up to 200 Mbps">
+                Apply Now
+              </button>
             </div>
           </div>
         </div>
