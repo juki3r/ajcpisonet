@@ -206,6 +206,9 @@
 
     /* === MOBILE FIXES === */
     @media (max-width: 768px) {
+      .choose {
+        height: 600px; /* Increase height for mobile */
+      }
       .choose{
         height: 100% !important;
       }
