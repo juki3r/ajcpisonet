@@ -341,25 +341,25 @@
         </div>
         <div class="col-12 col-md-8 p-0 m-0">
           <div class="row h-50">
-            <div class="col-12 col-md-6 bg-success p-2">
+            <div class="col-12 col-md-6 bg-success p-3">
               <h2>
                 <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
                 Redundant Internet</h2>
             </div>
-            <div class="col-12 col-md-6 bg-warning p-2">
+            <div class="col-12 col-md-6 bg-warning p-3">
               <h2>
                 <img src="{{asset('images/back-up.png')}}" alt="" width="100" height="100">
                 Back-up Power</h2>
             </div>
           </div>
           <div class="row h-50">
-            <div class="col-12 col-md-6 bg-primary p-2">
+            <div class="col-12 col-md-6 bg-primary p-3">
               <h2>
                 <img src="{{asset('images/affordable.png')}}" alt="" width="100" height="100">
                 Affordable Plans
               </h2>
             </div>
-            <div class="col-12 col-md-6 bg-secondary p-2">
+            <div class="col-12 col-md-6 bg-secondary p-3">
               <h2>
                 <img src="{{asset('images/customer.png')}}" alt="" width="100" height="100">
                 24/7 Customer Support
