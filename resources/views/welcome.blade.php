@@ -326,7 +326,7 @@
 
     <div id="about" class="container-fluid p-0 h-100">
       <div class="row h-100">
-        <div class="col-12 col-md-4 p-0 m-0"
+        <div class="col-12 col-md-4 p-0 m-0 h-100"
             style="
               background-image: url('/images/choose.jpg');
               background-size: stretch;
