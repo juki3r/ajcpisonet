@@ -345,6 +345,11 @@
               <h2>
                 <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
                 Redundant Internet</h2>
+                <p>
+                  having multiple internet connections or backup links to ensure continuous connectivity in case 
+                  one provider or connection fails. It is a reliability strategy often used by businesses, organizations, 
+                  and ISPs to prevent downtime and maintain seamless online operations.
+                </p>
             </div>
             <div class="col-12 col-md-6 bg-warning p-3">
               <h2>
