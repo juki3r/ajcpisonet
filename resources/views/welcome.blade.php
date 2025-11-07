@@ -413,7 +413,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱899</h2>
+              <h2 class="fw-bold text-warning plan-title">₱899</h2>
               <h5>Up to 50 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
@@ -421,7 +421,9 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
               </ul>
-              <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              <button class="btn btn-danger mt-3 apply-btn" data-bs-toggle="modal" data-bs-target="#applyModal">
+                Apply Now
+              </button>
             </div>
           </div>
         </div>
@@ -477,6 +479,42 @@
     </div>
   </div>
 
+
+
+
+  <!-- Modal -->
+<div class="modal fade" id="applyModal" tabindex="-1" aria-labelledby="applyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="applyModalLabel">Apply for Plan</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>You are applying for <strong id="selectedPlan"></strong>.</p>
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your full name">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Contact Number</label>
+            <input type="text" class="form-control" placeholder="Enter your contact number">
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Address</label>
+            <input type="text" class="form-control" placeholder="Enter your address">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Submit Application</button>
+      </div>
+    </div>
+  </div>
+</div>
   <script>
     // Collapse navbar after click (mobile)
     document.addEventListener('DOMContentLoaded', function () {
@@ -489,6 +527,13 @@
         });
       });
     });
+
+    document.querySelectorAll('.apply-btn').forEach(button => {
+    button.addEventListener('click', function() {
+      const plan = this.closest('.card-body').querySelector('.plan-title').textContent;
+      document.getElementById('selectedPlan').textContent = plan;
+    });
+  });
   </script>
 
 </body>
