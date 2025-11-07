@@ -341,7 +341,7 @@
         </div>
         <div class="col-12 col-md-8 p-0 m-0">
           <div class="row h-50">
-            <div class="col-12 col-md-6 bg-success d-flex justify-content-center align-items-center flex-column">
+            <div class="col-12 col-md-6 bg-success d-flex justify-content-center align-items-center flex-column text-light">
               <h2>
                 <img src="{{asset('images/isp.png')}}" alt="" width="100" height="100">
                 Redundant Internet</h2>
