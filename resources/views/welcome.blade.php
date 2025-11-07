@@ -398,6 +398,97 @@
       </div>
     </div>
 
+    <!-- 🌐 Internet Plans Section -->
+    <div id="plans" class="container-fluid py-5" style="background: #0d0d0d; color: #fff;">
+      <div class="container text-center">
+        <h1 class="mb-4 fw-bold"><span class="highlight">Our</span> Internet Plans</h1>
+        <p class="mb-5" style="max-width: 600px; margin: 0 auto;">
+          Fast, reliable, and affordable — choose the perfect plan for your home or business with
+          <span class="highlight">AJC Internet</span>. All plans include access to <b>AJCFlix</b> — unlimited movies, TV channels, karaoke, and entertainment!
+        </p>
+
+        <div class="row g-4">
+          <!-- Plan 899 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="fw-bold text-warning">₱899</h2>
+                  <h5>Up to 50 Mbps</h5>
+                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
+                    <li>✅ Unlimited Internet</li>
+                    <li>🎬 AJCFlix Access</li>
+                    <li>📺 Unlimited Movies & TV Channels</li>
+                    <li>🎤 Karaoke & Entertainment</li>
+                  </ul>
+                </div>
+                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plan 1199 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="fw-bold text-warning">₱1199</h2>
+                  <h5>Up to 100 Mbps</h5>
+                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
+                    <li>✅ Unlimited Internet</li>
+                    <li>🎬 AJCFlix Access</li>
+                    <li>📺 Unlimited Movies & TV Channels</li>
+                    <li>🎤 Karaoke & Entertainment</li>
+                  </ul>
+                </div>
+                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plan 1499 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="fw-bold text-warning">₱1499</h2>
+                  <h5>Up to 150 Mbps</h5>
+                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
+                    <li>✅ Unlimited Internet</li>
+                    <li>🎬 AJCFlix Access</li>
+                    <li>📺 Unlimited Movies & TV Channels</li>
+                    <li>🎤 Karaoke & Entertainment</li>
+                  </ul>
+                </div>
+                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Plan 1999 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100 border-0 text-light" style="background: #1a1a1a; border-radius: 20px;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h2 class="fw-bold text-warning">₱1999</h2>
+                  <h5>Up to 200 Mbps</h5>
+                  <ul class="list-unstyled mt-3" style="font-size: 14px;">
+                    <li>✅ Unlimited Internet</li>
+                    <li>🎬 AJCFlix Access</li>
+                    <li>📺 Unlimited Movies & TV Channels</li>
+                    <li>🎤 Karaoke & Entertainment</li>
+                  </ul>
+                </div>
+                <a href="#contact" class="btn btn-danger mt-3">Apply Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
 
   <script>
