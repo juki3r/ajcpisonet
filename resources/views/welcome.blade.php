@@ -204,14 +204,25 @@
       overflow-x: hidden;
     }
     .choose {
-      height: 400px;
       position: relative;
+      background-size: cover;
+      background-position: center;
+      min-height: 400px;          /* desktop default */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
     }
+
+    .choose > .overlay { position: absolute; inset: 0; z-index: 1; }
 
     /* === MOBILE FIXES === */
     @media (max-width: 768px) {
+      /* increase the choose column height on small screens */
       .choose {
-        height: 600px; /* Increase height for mobile */
+        min-height: 600px;     /* bigger on mobile to avoid overlap */
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
       }
       .choose{
         height: 100% !important;
