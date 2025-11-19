@@ -414,16 +414,18 @@
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
               <h2 class="fw-bold text-warning plan-title">₱899</h2>
-              <h5>Up to 200 Mbps</h5>
+              <h5>Up to 150 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
-                <li>No data Capping</li>
+                <li>📶 No Data Capping</li>
+                <li>📞 Free Landline</li>
+
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
                 data-bs-target="#applyModal"
-                data-plan="₱899 - Up to 200 Mbps">
+                data-plan="₱899 - Up to 150 Mbps">
                 Apply Now
               </button>
 
@@ -435,16 +437,18 @@
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
               <h2 class="fw-bold text-warning">₱1,199</h2>
-              <h5>Up to 300 Mbps</h5>
+              <h5>Up to 200 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
-                <li>No data Capping</li>
+                <li>📶 No Data Capping</li>
+                <li>📞 Free Landline</li>
+
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
                 data-bs-target="#applyModal"
-                data-plan="₱1199 - Up to 300 Mbps">
+                data-plan="₱1199 - Up to 200 Mbps">
                 Apply Now
               </button>
             </div>
@@ -455,16 +459,17 @@
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
               <h2 class="fw-bold text-warning">₱1,499</h2>
-              <h5>Up to 400 Mbps</h5>
+              <h5>Up to 300 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
-                <li>No data Capping</li>
+                <li>📶 No Data Capping</li>
+                <li>📞 Free Landline</li>
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
                 data-bs-target="#applyModal"
-                data-plan="₱1499 - Up to 400 Mbps">
+                data-plan="₱1499 - Up to 300 Mbps">
                 Apply Now
               </button>
             </div>
@@ -475,16 +480,18 @@
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
               <h2 class="fw-bold text-warning">₱1,999</h2>
-              <h5>Up to 500 Mbps</h5>
+              <h5>Up to 400 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
-                <li>No data Capping</li>
+                <li>📶 No Data Capping</li>
+                <li>📞 Free Landline</li>
+
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
                 data-bs-target="#applyModal"
-                data-plan="₱1999 - Up to 500 Mbps">
+                data-plan="₱1999 - Up to 400 Mbps">
                 Apply Now
               </button>
             </div>
