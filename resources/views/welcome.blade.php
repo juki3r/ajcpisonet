@@ -417,9 +417,11 @@
               <h5>Up to 150 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
                 <li>📞 Free Landline</li>
-
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
@@ -440,9 +442,11 @@
               <h5>Up to 200 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
                 <li>📞 Free Landline</li>
-
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
@@ -462,6 +466,9 @@
               <h5>Up to 300 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
                 <li>📞 Free Landline</li>
               </ul>
@@ -483,9 +490,11 @@
               <h5>Up to 400 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>✅ Unlimited Internet</li>
+                <li>🎬 AJCFlix Access</li>
+                <li>📺 Movies & TV</li>
+                <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
                 <li>📞 Free Landline</li>
-
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
