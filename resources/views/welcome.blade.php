@@ -402,7 +402,7 @@
       <h1 class="mb-4 fw-bold"><span class="highlight">Our</span> Internet Plans</h1>
       <p class="mb-5" style="max-width: 600px; margin: 0 auto;">
         Fast, reliable, and affordable — choose the perfect plan for your home or business with
-        <span class="highlight">AJC Internet</span>. All plans include <b>AJCFlix</b>: unlimited movies, TV channels, karaoke, and entertainment!
+        <span class="highlight">AJC Internet</span>. All plans include <b>AJCFlix</b>: unlimited movies, TV channels, karaoke, entertainment and landline telephone!
         <br>
         <br>
         <span class="text-warning"> Note: Installation fee is 1,500 pesos.</span>
@@ -421,7 +421,7 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Free Landline</li>
+                <li>📞 Landline Telephone</li>
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
@@ -446,7 +446,7 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Free Landline</li>
+                <li>📞 Landline Telephone</li>
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
@@ -470,7 +470,7 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Free Landline</li>
+                <li>📞 Landline Telephone</li>
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
@@ -494,7 +494,7 @@
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Free Landline</li>
+                <li>📞 Landline Telephone</li>
               </ul>
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
