@@ -515,7 +515,7 @@
 
       <div class="modal-body">
         <p>You are applying for <strong id="selectedPlan"></strong>.</p>
-        <p>Note: <span class="text-danger">Installation fee is 2,500 pesos.</span></p>
+        <p>Note: <span class="text-danger">Installation fee is 1,500 pesos.</span></p>
 
         <form id="applyForm">
           @csrf
