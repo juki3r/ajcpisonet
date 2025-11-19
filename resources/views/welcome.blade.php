@@ -413,7 +413,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning plan-title">₱899</h2>
+              <h2 class="fw-bold text-warning plan-title">Plan ₱899</h2>
               <h5>Up to 150 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>📡 Unlimited Internet</li>
