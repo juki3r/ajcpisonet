@@ -416,13 +416,14 @@
               <h2 class="fw-bold text-warning plan-title">₱899</h2>
               <h5>Up to 150 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
-                <li>✅ Unlimited Internet</li>
+                <li>📡 Unlimited Internet</li>
                 <li>🎬 AJCFlix Access</li>
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Landline Telephone</li>
+                <li>☎️ Landline Telephone</li>
               </ul>
+
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
@@ -441,13 +442,14 @@
               <h2 class="fw-bold text-warning">₱1,199</h2>
               <h5>Up to 200 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
-                <li>✅ Unlimited Internet</li>
+                <li>📡 Unlimited Internet</li>
                 <li>🎬 AJCFlix Access</li>
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Landline Telephone</li>
+                <li>☎️ Landline Telephone</li>
               </ul>
+
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
@@ -465,13 +467,14 @@
               <h2 class="fw-bold text-warning">₱1,499</h2>
               <h5>Up to 300 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
-                <li>✅ Unlimited Internet</li>
+                <li>📡 Unlimited Internet</li>
                 <li>🎬 AJCFlix Access</li>
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Landline Telephone</li>
+                <li>☎️ Landline Telephone</li>
               </ul>
+
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
@@ -489,13 +492,14 @@
               <h2 class="fw-bold text-warning">₱1,999</h2>
               <h5>Up to 400 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
-                <li>✅ Unlimited Internet</li>
+                <li>📡 Unlimited Internet</li>
                 <li>🎬 AJCFlix Access</li>
                 <li>📺 Movies & TV</li>
                 <li>🎤 Karaoke & Entertainment</li>
                 <li>📶 No Data Capping</li>
-                <li>📞 Landline Telephone</li>
+                <li>☎️ Landline Telephone</li>
               </ul>
+
               <button 
                 class="btn btn-danger mt-3 apply-btn" 
                 data-bs-toggle="modal" 
