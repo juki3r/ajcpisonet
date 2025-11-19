@@ -439,7 +439,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱1,199</h2>
+              <h2 class="fw-bold text-warning">Plan ₱1,199</h2>
               <h5>Up to 200 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>📡 Unlimited Internet</li>
@@ -464,7 +464,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱1,499</h2>
+              <h2 class="fw-bold text-warning">Plan ₱1,499</h2>
               <h5>Up to 300 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>📡 Unlimited Internet</li>
@@ -489,7 +489,7 @@
         <div class="col-12 col-md-6 col-lg-3">
           <div class="card h-100 border-0 text-light" style="background:#1a1a1a;border-radius:20px;">
             <div class="card-body">
-              <h2 class="fw-bold text-warning">₱1,999</h2>
+              <h2 class="fw-bold text-warning">Plan ₱1,999</h2>
               <h5>Up to 400 Mbps</h5>
               <ul class="list-unstyled mt-3 small">
                 <li>📡 Unlimited Internet</li>
